@@ -6,19 +6,14 @@ export default function NavBar() {
         <Nav>
             <NavItem>
                 <NavLink active href="#">
-                    Active
+                    Home
             </NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="#">Link</NavLink>
+                <NavLink href="#">About</NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="#">Another Link</NavLink>
-            </NavItem>
-            <NavItem>
-                <NavLink disabled href="#">
-                    Disabled Link
-            </NavLink>
+                <NavLink href="#">Contact Link</NavLink>
             </NavItem>
         </Nav>
     );
