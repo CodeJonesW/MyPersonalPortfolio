@@ -20,3 +20,12 @@
 .App-link {
   color: #09d3ac;
 }
+
+#navBar {
+  text-align: right;
+}
+
+#CalorieTrackerImg {
+  height: auto;
+  width: 300px;
+}

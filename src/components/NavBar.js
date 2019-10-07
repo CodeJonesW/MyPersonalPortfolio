@@ -3,7 +3,7 @@ import { Nav, NavItem, NavLink } from "shards-react";
 
 export default function NavBar() {
     return (
-        <Nav>
+        <Nav id="navBar">
             <NavItem>
                 <NavLink active href="#">
                     Home
@@ -13,7 +13,7 @@ export default function NavBar() {
                 <NavLink href="#">About</NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="#">Contact Link</NavLink>
+                <NavLink href="#">Contact </NavLink>
             </NavItem>
         </Nav>
     );
