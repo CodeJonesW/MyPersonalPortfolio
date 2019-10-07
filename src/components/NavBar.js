@@ -52,19 +52,24 @@ export default class MyNav extends React.Component {
     render() {
         return (
             <Navbar type="dark" theme="primary" expand="md">
-                <NavbarBrand href="#">Shards React</NavbarBrand>
+                <NavbarBrand href="#">William Jones</NavbarBrand>
                 <NavbarToggler onClick={this.toggleNavbar} />
 
                 <Collapse open={this.state.collapseOpen} navbar>
                     <Nav navbar>
                         <NavItem>
                             <NavLink active href="#">
-                                Active
+                                About
               </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="#" disabled>
-                                Disabled
+                            <NavLink href="#">
+                                Contact
+              </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#">
+                                Projects
               </NavLink>
                         </NavItem>
                         <Dropdown
@@ -83,13 +88,7 @@ export default class MyNav extends React.Component {
                     </Nav>
 
                     <Nav navbar className="ml-auto">
-                        <InputGroup size="sm" seamless>
-                            <InputGroupAddon type="prepend">
-                                <InputGroupText>
-                                </InputGroupText>
-                            </InputGroupAddon>
-                            <FormInput className="border-0" placeholder="Search..." />
-                        </InputGroup>
+
                     </Nav>
                 </Collapse>
             </Navbar>

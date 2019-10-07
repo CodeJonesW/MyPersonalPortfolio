@@ -28,6 +28,11 @@
 #CalorieTrackerImg {
   height: auto;
   width: 300px;
+  padding: 5px;
+}
+.Card {
+  margin: 40px;
+  max-width: 300px;
 }
 
 #Introduction {

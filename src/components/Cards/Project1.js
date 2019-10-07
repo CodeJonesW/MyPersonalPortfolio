@@ -12,7 +12,7 @@ import {
 
 export default function Project1() {
     return (
-        <Card style={{ maxWidth: "300px" }}>
+        <Card className="Card">
             <CardHeader>CalorieTracker I/O</CardHeader>
             <CardImg src={CalorieTracker} id="CalorieTrackerImg" />
             <CardBody>
@@ -20,7 +20,6 @@ export default function Project1() {
                 <p>Lorem ipsum dolor sit amet.</p>
                 <Button>Read more &rarr;</Button>
             </CardBody>
-            <CardFooter>Card footer</CardFooter>
         </Card>
     );
 }
