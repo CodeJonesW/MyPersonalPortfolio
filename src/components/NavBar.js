@@ -64,7 +64,7 @@ export default class MyNav extends React.Component {
                         </NavItem>
                         <NavItem>
                             <NavLink href="#">
-                                Contact
+                                Contact Info
               </NavLink>
                         </NavItem>
                         <NavItem>
