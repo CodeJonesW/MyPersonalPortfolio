@@ -22,10 +22,21 @@
 }
 
 #navBar {
-  text-align: right;
+  float: right;
 }
 
 #CalorieTrackerImg {
   height: auto;
   width: 300px;
+}
+
+#Introduction {
+
+}
+
+#HomePage {
+  background: url(./images/blue_ridge.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
 }
