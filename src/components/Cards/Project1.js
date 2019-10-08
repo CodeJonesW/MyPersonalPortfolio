@@ -12,7 +12,7 @@ import {
 
 export default function Project1() {
     return (
-        <Card className="Card">
+        <Card className="Card m-3">
             <CardHeader>CalorieTracker I/O</CardHeader>
             <CardImg src={CalorieTracker} id="CalorieTrackerImg" />
             <CardBody>
