@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background: url(./images/blue_ridge.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -37,11 +41,4 @@
 
 #Introduction {
 
-}
-
-#HomePage {
-  background: url(./images/blue_ridge.jpg) no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
 }
