@@ -17,21 +17,21 @@ export default function Project2() {
         <Card className="Card m-3">
             <CardHeader>CalorieTracker I/O</CardHeader>
 
-            <Carousel>
-                <Carousel.Item>
+            <Carousel className="carouselItem">
+                <Carousel.Item >
                     <CardImg src={CalorieTracker} id="CalorieTrackerImg" />
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item >
                     <CardImg src={CalorieTracker} id="CalorieTrackerImg" />
                 </Carousel.Item>
-                <Carousel.Item>
+                <Carousel.Item >
                     <CardImg src={CalorieTracker} id="CalorieTrackerImg" />
                 </Carousel.Item>
             </Carousel>
             <CardBody>
-                <CardTitle>Lorem Ipsum</CardTitle>
-                <p>Lorem ipsum dolor sit amet.</p>
-                <Button>Read more &rarr;</Button>
+                {/* <CardTitle>Lorem Ipsum</CardTitle> */}
+                <p>Calorie Tracker allows users to chart the different relationships of food intake vs exercises and display them on different types of graphs.</p>
+                <Button>Live Website &rarr;</Button>
             </CardBody>
         </Card>
     );

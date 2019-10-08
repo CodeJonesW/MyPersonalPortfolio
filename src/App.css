@@ -38,9 +38,13 @@
   height: auto;
   width: 300px;
 }
+.carouselItem {
+  margin: 7px;
+  
+}
 .Card {
   margin: 80px;
-  max-width: 300px;
+  width: 300px;
 }
 
 #Introduction {

@@ -7,7 +7,7 @@ class Projects extends React.Component {
 
     render() {
         return (
-            <div id="Contact">
+            <div id="Projects">
                 <p>Will's Projects </p>
                 <Row className="d-flex justify-content-center m-3">
                     <Col md={3}>
