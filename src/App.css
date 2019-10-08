@@ -4,6 +4,10 @@
   background-size: cover;
   height: 100%;
   overflow: hidden;
+  
+}
+#content {
+  padding: 30px;
 }
 
 .App-logo {
@@ -19,6 +23,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -32,10 +37,9 @@
 #CalorieTrackerImg {
   height: auto;
   width: 300px;
-  padding: 5px;
 }
 .Card {
-  margin: 40px;
+  margin: 80px;
   max-width: 300px;
 }
 

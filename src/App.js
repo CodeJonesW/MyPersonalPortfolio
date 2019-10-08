@@ -16,15 +16,16 @@ class App extends React.Component {
     return (
       <div className="App">
         <NavBar />
-        {
-          <Switch>
-            <Route exact path="/" render={() => <HomePage />} />
-            <Route exact path='/contact' render={() => <Contact />} />
-            <Route exact path='/about' render={() => <About />} />
-            <Route exact path='/projects' render={() => <Projects />} />
-          </Switch>
-        }
-
+        <div id="content">
+          {
+            <Switch>
+              <Route exact path="/" render={() => <HomePage />} />
+              <Route exact path='/contact' render={() => <Contact />} />
+              <Route exact path='/about' render={() => <About />} />
+              <Route exact path='/projects' render={() => <Projects />} />
+            </Switch>
+          }
+        </div>
       </div>
     )
   };
