@@ -1,14 +1,12 @@
 import React from "react";
 import CalorieTracker from '../../images/CalorieTracker_I_O_1.png'
-import { Carousel } from 'react-bootstrap'
+import { Carousel, ButtonGroup, Button } from 'react-bootstrap'
 import {
     Card,
     CardHeader,
     CardTitle,
     CardImg,
-    CardBody,
-    CardFooter,
-    Button
+    CardBody
 } from "shards-react";
 
 
@@ -31,9 +29,13 @@ export default function Project2() {
                 </Carousel.Item>
             </Carousel>
             <CardBody>
-                {/* <CardTitle>Lorem Ipsum</CardTitle> */}
-                <p>This application allows users to chart the different relationships of food intake vs exercises and display them on different types of graphs.</p>
-                <Button>Live Website &rarr;</Button>
+                <p>Allows users to chart calories in relation to food intake and exercises over time.</p>
+
+                <ButtonGroup horizontal="Basic example">
+                    <Button size="sm" >Details</Button>
+                    <Button size="sm" href="https://calorietracker-i-o.web.app/profile">Live Website &rarr;</Button>
+                </ButtonGroup>
+
             </CardBody>
         </Card>
     );
