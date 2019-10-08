@@ -11,13 +11,15 @@ import {
     Button
 } from "shards-react";
 
+
 export default function Project2() {
+
 
     return (
         <Card className="Card m-3">
             <CardHeader>CalorieTracker I/O</CardHeader>
 
-            <Carousel className="carouselItem">
+            <Carousel className="carouselItem" controls={true} interval={null} slide={true} wrap={true}>
                 <Carousel.Item >
                     <CardImg src={CalorieTracker} id="CalorieTrackerImg" />
                 </Carousel.Item>
@@ -30,7 +32,7 @@ export default function Project2() {
             </Carousel>
             <CardBody>
                 {/* <CardTitle>Lorem Ipsum</CardTitle> */}
-                <p>Calorie Tracker allows users to chart the different relationships of food intake vs exercises and display them on different types of graphs.</p>
+                <p>This application allows users to chart the different relationships of food intake vs exercises and display them on different types of graphs.</p>
                 <Button>Live Website &rarr;</Button>
             </CardBody>
         </Card>
