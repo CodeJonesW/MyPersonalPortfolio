@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
 import Project1 from '../Cards/Project1';
 import Project2 from '../Cards/Project2';
-import { Card, Row, Col, Container } from "react-bootstrap"
-
+import { Row, Col } from "react-bootstrap"
+import { Card, CardHeader } from "shards-react";
 class Projects extends React.Component {
 
     render() {
         return (
             <div id="Projects">
-                <p>Will's Projects </p>
+                <Row className="d-flex justify-content-center m-3">
+                    <Col md={12}>
+                        <Card className="ProjectTitle" >
+                            <CardHeader>My Projects</CardHeader>
+                        </Card>
+
+                    </Col>
+                </Row>
+
                 <Row className="d-flex justify-content-center m-3">
                     <Col md={3}>
                         <Project2 />

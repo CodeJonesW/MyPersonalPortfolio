@@ -47,6 +47,11 @@
   width: 300px;
 }
 
+ProjectTitle {
+  text-align: center;
+  max-width: 300px;
+}
+
 #Introduction {
 
 }
