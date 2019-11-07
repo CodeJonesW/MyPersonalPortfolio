@@ -44,14 +44,20 @@
 }
 .Card {
   margin: 80px;
-  width: 300px;
+  width: auto;
 }
 
-ProjectTitle {
+#ProjectTitle {
   text-align: center;
   max-width: 300px;
 }
 
 #Introduction {
 
+}
+
+#profilepic {
+  width: 400px;
+  height: 500px;
+  clip-path: circle(180px at center);
 }
