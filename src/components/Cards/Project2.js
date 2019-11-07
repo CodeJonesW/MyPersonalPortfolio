@@ -6,7 +6,8 @@ import {
     CardHeader,
     CardTitle,
     CardImg,
-    CardBody
+    CardBody,
+    CardFooter
 } from "shards-react";
 
 
@@ -31,12 +32,13 @@ export default function Project2() {
             <CardBody>
                 <p>Allows users to chart calories in relation to food intake and exercises over time.</p>
 
-                <ButtonGroup horizontal="Basic example">
-                    <Button size="sm" >Details</Button>
-                    <Button size="sm" href="https://calorietracker-i-o.web.app/profile">Live Website &rarr;</Button>
-                </ButtonGroup>
+
+                <Button size='sm' className="myButton" >Details</Button>
+                <Button size='sm' className="myButton" href="https://calorietracker-i-o.web.app/profile">Live Website &rarr;</Button>
+
 
             </CardBody>
+
         </Card>
     );
 }
