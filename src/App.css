@@ -52,12 +52,17 @@
   max-width: 300px;
 }
 
-#Introduction {
-
-}
 
 #profilepic {
   width: 300px;
   height: 400px;
   clip-path: circle(140px at center);
+  
 }
+
+.myButton {
+  height: auto;
+  width: 100%;
+  margin: 1px;
+}
+
