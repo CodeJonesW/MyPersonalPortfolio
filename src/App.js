@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import HomePage from './components/Pages/HomePage';
 import Contact from './components/Pages/Contact'
+import Art from './components/Pages/Art'
 import About from './components/Pages/About'
 import NavBar from './components/NavBar';
 import Projects from './components/Pages/Projects';
@@ -19,10 +20,11 @@ class App extends React.Component {
         <div id="content">
           {
             <Switch>
-              <Route exact path="/" render={() => <HomePage />} />
+              <Route exact path="/" render={() => <About />} />
               <Route exact path='/contact' render={() => <Contact />} />
               <Route exact path='/about' render={() => <About />} />
               <Route exact path='/projects' render={() => <Projects />} />
+              <Route exact path='/art' render={() => <Art />} />
             </Switch>
           }
         </div>
