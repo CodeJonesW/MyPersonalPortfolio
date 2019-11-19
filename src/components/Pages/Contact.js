@@ -3,6 +3,7 @@ import { Card, Row, Col, Container } from "react-bootstrap"
 import github from '../../images/Github_Logo.png'
 import gmail from '../../images/Gmail_logo.png'
 import twitter from '../../images/twitter_logo.png'
+import linkedIn from '../../images/LinkedIn_logo.jpg'
 class Contact extends React.Component {
 
     render() {
@@ -36,6 +37,12 @@ class Contact extends React.Component {
                     <Col md={3}>
                         <a href="https://twitter.com/CodeWJones">
                             <img id="twitterLogo" src={twitter} />
+                        </a>
+                    </Col>
+
+                    <Col md={3}>
+                        <a href="https://www.linkedin.com/in/william-jones-8984b4189/">
+                            <img id="linkedInLogo" src={linkedIn} />
                         </a>
                     </Col>
 
