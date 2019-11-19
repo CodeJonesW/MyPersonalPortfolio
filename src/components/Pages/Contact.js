@@ -14,9 +14,7 @@ class Contact extends React.Component {
                     <Col md={6} style={{ 'padding': '50px' }}>
                         <Card className="m-3" >
                             <Card.Body>
-                                Contact Info
-                                <br />
-                                Email: williamjonescodes@gmail.com
+                                <h5>williamjonescodes@gmail.com</h5>
                             </Card.Body>
                         </Card>
                     </Col>
