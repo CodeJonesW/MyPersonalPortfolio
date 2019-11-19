@@ -60,6 +60,32 @@
   
 }
 
+#gmailLogo {
+  width: 250px;
+  height: 250px;
+  clip-path: square(100px at center);
+}
+
+#gitHubLogo {
+  width: 250px;
+  height: 250px;
+  clip-path: circle(100px at center);
+}
+
+
+#linkedInLogo {
+  width: 250px;
+  height: 250px;
+  clip-path: circle(100px at center);
+}
+
+
+#twitterLogo {
+  width: 250px;
+  height: 250px;
+  clip-path: circle(100px at center);
+}
+
 .myButton {
   height: auto;
   width: 100%;
