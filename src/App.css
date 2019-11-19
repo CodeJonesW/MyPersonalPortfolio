@@ -34,6 +34,7 @@
 
 #navBar {
   float: right;
+  background-color: #09d3ac;
 }
 
 #CalorieTrackerImg {
@@ -77,16 +78,12 @@
   clip-path: circle(32px at center);
 }
 
-
-#twitterLogo {
-  width: 250px;
-  height: 250px;
-  clip-path: circle(100px at center);
-}
-
 #wjgw {
-  
+  display: block; 
+  max-width: 100%;
+  height: auto;
 }
+
 
 .myButton {
   height: auto;

@@ -5,6 +5,8 @@ import github_2 from '../../images/Github_Logo_2.png'
 import gmail from '../../images/Gmail_logo.png'
 import twitter from '../../images/twitter_logo.png'
 import linkedIn from '../../images/LinkedIn_logo.jpg'
+import resume from '../../images/resume_logo_2.png'
+
 class Contact extends React.Component {
 
     render() {
@@ -12,12 +14,21 @@ class Contact extends React.Component {
             <div id="Contact">
                 <Row className="d-flex justify-content-center m-3">
 
-                    <Col md={12} style={{ 'padding': '50px' }}>
+                    <Col md={6} style={{ 'padding': '50px' }}>
                         <Card className="m-3" >
                             <Card.Body>
-                                <h5>williamjonescodes@gmail.com</h5>
+                                <h5>
+                                    williamjonescodes@gmail.com
+
+                                </h5>
+
                             </Card.Body>
+
                         </Card>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={12} style={{ 'padding': '50px' }}>
                     </Col>
                 </Row>
                 <Row>
@@ -27,7 +38,7 @@ class Contact extends React.Component {
                 <Row>
                     <Col md={3}>
                         <a href="https://github.com/CodeJonesW">
-                            <img className="circleLogo" src={github_2} onMouseOver={e => (e.currentTarget.src = github_2)} onMouseOut={e => (e.currentTarget.src = github)} />
+                            <img className="circleLogo" src={github} />
                         </a>
                     </Col>
 

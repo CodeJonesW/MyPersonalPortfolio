@@ -52,12 +52,16 @@ export default class MyNav extends React.Component {
     render() {
         return (
             <Navbar id="navBaR" type="dark" theme="primary" expand="md">
-                <NavbarBrand href="/">William Jones</NavbarBrand>
+
                 <NavbarToggler onClick={this.toggleNavbar} />
 
                 <Collapse open={this.state.collapseOpen} navbar>
                     <Nav navbar>
-
+                        <NavItem >
+                            <NavLink href="/">
+                                William Jones
+                    </NavLink>
+                        </NavItem>
                         <NavItem>
                             <NavLink href="/contact">
                                 Contact
