@@ -60,6 +60,12 @@
   
 }
 
+#gitHubLogo {
+  width: 250px;
+  height: 250px;
+  clip-path: circle(100px at center);
+}
+
 .myButton {
   height: auto;
   width: 100%;

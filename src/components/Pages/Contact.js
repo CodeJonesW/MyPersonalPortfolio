@@ -1,15 +1,27 @@
 import React, { Component } from 'react';
-
-
+import { Card, Row, Col, Container } from "react-bootstrap"
+import github from '../../images/Github_Logo.png'
 class Contact extends React.Component {
 
     render() {
         return (
             <div id="Contact">
-                <p>Will's Contact </p>
+                <Row className="d-flex justify-content-center m-3">
+                    <Col md={5}>
+                        <a href="https://github.com/CodeJonesW">
+                            <img id="gitHubLogo" src={github} />
+                        </a>
+                    </Col>
 
-
-            </div>
+                    <Col md={6} style={{ 'padding': '50px' }}>
+                        <Card className="m-3" >
+                            <Card.Body>
+                                Contact Info
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                </Row>
+            </div >
         );
     }
 }
