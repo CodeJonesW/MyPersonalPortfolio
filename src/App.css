@@ -60,6 +60,12 @@
   
 }
 
+#gmailLogo {
+  width: 250px;
+  height: 250px;
+  clip-path: square(100px at center);
+}
+
 #gitHubLogo {
   width: 250px;
   height: 250px;
