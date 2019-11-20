@@ -9,10 +9,7 @@ class Projects extends React.Component {
         return (
             <div id="Projects">
                 <Row className="d-flex justify-content-center m-3">
-                    <Col md={12}>
-                        <Card className="ProjectTitle" >
-                            <CardHeader>My Projects</CardHeader>
-                        </Card>
+                    <Col style={{ "padding": "20px" }} md={12}>
 
                     </Col>
                 </Row>

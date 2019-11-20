@@ -14,27 +14,21 @@ class Contact extends React.Component {
             <div id="Contact">
                 <Row className="d-flex justify-content-center m-3">
 
-                    <Col md={6} style={{ 'padding': '50px' }}>
-                        <Card className="m-3" >
-                            <Card.Body>
-                                <h5>
-                                    williamjonescodes@gmail.com
+                    <Col md={6} >
+
+                        <h5>
+                            williamjonescodes@gmail.com
 
                                 </h5>
 
-                            </Card.Body>
 
-                        </Card>
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={12} style={{ 'padding': '50px' }}>
+                    <Col md={12} style={{ 'padding': '20px' }}>
                     </Col>
                 </Row>
-                <Row>
-                    <Col md={12} style={{ 'padding': '50px' }}>
-                    </Col>
-                </Row>
+
                 <Row>
                     <Col md={3}>
                         <a href="https://github.com/CodeJonesW">

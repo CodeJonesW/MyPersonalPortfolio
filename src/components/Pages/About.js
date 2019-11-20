@@ -51,9 +51,9 @@ class About extends React.Component {
                         <Card>
                             <Card.Body>
                                 I also really enjoy the learning in my free time.
-                                Astronomy, philosophy, and music are some of my favorite topics.
-                                Learning new music production techniques and combining them with
-                                playing guitar or piano is another one of my favorite hobbies.
+                                History, philosophy, and music are some of my favorite topics.
+                                Learning new music production techniques running, and cooking at home are some
+                                of my favorite hobbies.
                             </Card.Body>
                         </Card>
                     </Col>
