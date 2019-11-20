@@ -33,7 +33,7 @@ export default function Project2() {
                 <p>Allows users to chart calories in relation to food intake and exercises over time.</p>
 
 
-                <button size='sm' className="myButton" >Details</button>
+
                 <a href="https://calorietracker-i-o.web.app/profile" target="_blank">
                     <button size='sm' className="myButton" >Live Website &rarr;</button>
                 </a>

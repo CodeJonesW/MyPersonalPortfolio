@@ -14,13 +14,9 @@ class Contact extends React.Component {
                 <Row className="d-flex justify-content-center m-3">
 
                     <Col md={6} >
-
                         <h5>
                             williamjonescodes@gmail.com
-
-                                </h5>
-
-
+                        </h5>
                     </Col>
                 </Row>
                 <Row>

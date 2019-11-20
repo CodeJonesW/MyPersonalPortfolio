@@ -15,15 +15,15 @@ class Projects extends React.Component {
                 </Row>
 
                 <Row className="d-flex justify-content-center m-3">
-                    <Col md={3}>
+                    <Col style={{ "minWidth": "250px" }} md={3}>
                         <Project2 />
                     </Col>
 
-                    <Col md={3}>
+                    <Col style={{ "minWidth": "250px" }} md={3}>
                         <Project2 />
                     </Col>
 
-                    <Col md={3}>
+                    <Col style={{ "minWidth": "250px" }} md={3}>
                         <Project2 />
                     </Col>
                 </Row>
