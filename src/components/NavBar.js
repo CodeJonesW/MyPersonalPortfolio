@@ -52,15 +52,15 @@ export default class MyNav extends React.Component {
     render() {
         return (
             <Navbar id="navBaR" type="dark" theme="primary" expand="md">
-                <NavbarBrand href="/">William Jones</NavbarBrand>
+
                 <NavbarToggler onClick={this.toggleNavbar} />
 
                 <Collapse open={this.state.collapseOpen} navbar>
                     <Nav navbar>
-                        <NavItem>
-                            <NavLink active href="/about">
-                                About
-              </NavLink>
+                        <NavItem >
+                            <NavLink href="/">
+                                William Jones
+                    </NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="/contact">
@@ -70,21 +70,14 @@ export default class MyNav extends React.Component {
                         <NavItem>
                             <NavLink href="/projects">
                                 Projects
-              </NavLink>
+                            </NavLink>
                         </NavItem>
-                        {/* <Dropdown
-                            open={this.state.dropdownOpen}
-                            toggle={this.toggleDropdown}
-                        >
-                            <DropdownToggle nav caret>
-                                Dropdown
-              </DropdownToggle>
-                            <DropdownMenu>
-                                <DropdownItem>Action</DropdownItem>
-                                <DropdownItem>Another action</DropdownItem>
-                                <DropdownItem>Something else here</DropdownItem>
-                            </DropdownMenu>
-                        </Dropdown> */}
+                        <NavItem>
+                            <NavLink href="/art">
+                                Art
+                            </NavLink>
+                        </NavItem>
+
                     </Nav>
 
                     <Nav navbar className="ml-auto">
