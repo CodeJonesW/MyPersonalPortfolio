@@ -34,7 +34,8 @@
 
 #navBar {
   float: right;
-  background-color: #09d3ac;
+  color: blue;
+
 }
 
 #CalorieTrackerImg {
@@ -63,9 +64,12 @@
   
 }
 
-#gmailLogo {
-  width: 80px;
-  height: 80px;
+.squareLogo {
+
+  max-width: 80px;
+  max-height: 80px;
+  min-width: 40px;
+  min-height: 30px;
 }
 
 
@@ -98,3 +102,11 @@
   margin: 1px;
 }
 
+
+.technologies {
+  margin: 5px; 
+  max-width: 60px;
+  max-height: 50px;
+  min-width: 40px;
+  min-height: 30px;
+}
