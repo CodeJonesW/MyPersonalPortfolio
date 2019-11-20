@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import selfie from '../../images/profile_picture.jpg'
 import jsLogo from '../../images/JavaScript_logo.png'
-import rubyLogo from '../../images/599-5993763_ruby-logo-transparent-ruby-on-rails-python-hd.png'
 import railsLogo from '../../images/rails-1-logo.png'
-import reactLogo from '../../images/react_logo.jpg'
+import reactLogo from '../../images/react_logo_.png'
+import reduxLogo from '../../images/redux_logo.png'
+import nodeLogo from '../../images/NodeJS_logo.png'
+import postgresSqlLogo from '../../images/postgres_logo.png'
+import gitHubLogo from '../../images/github_logo_PNG.png'
+
 
 import { Card, Row, Col, Container } from "react-bootstrap"
 // import fetchNasaApi from '../../functions/functions'
@@ -49,33 +53,46 @@ class About extends React.Component {
                 </Row>
                 <Row className="d-flex justify-content-center m-3">
                     <Col md={12} style={{ 'padding': '150px' }}>
-                        <Card >
-                            <Row>
-                                <Col>
-                                    <Card.Img className="technologies" src={reactLogo} />
-                                </Col>
-                                <Col>
-                                    <Card.Img className="technologies" src={jsLogo} />
-                                </Col>
-                                <Col>
-                                    <Card.Img className="technologies" src={rubyLogo} />
-                                </Col>
-                                <Col>
-                                    <Card.Img className="technologies" src={railsLogo} />
-                                </Col>
-                            </Row>
-                        </Card>
+
                     </Col>
                 </Row>
                 <Row>
                     <Col md={5} style={{ 'padding': '50px' }}>
-                        <Card>
+                        <Card style={{ 'margin': '50px' }}>
                             <Card.Body>
-                                I enjoy the learning in my free time.
                                 History, astronomy, philosophy, and music are some of my favorite topics. Software development
                                 has also become a top contender. Playing music,
                                 running, and cooking at home are some of my most frequented hobbies.
+                                I am always learning new languages, frameworks, and other technologies to advance
+                                my development process.
                             </Card.Body>
+                        </Card>
+                        <Card >
+                            <Row className="d-flex justify-content-center m-1">
+                                <Col style={{ 'margin': '2px' }} md={2}>
+                                    <Card.Img className="technologies" src={reactLogo} />
+                                </Col>
+                                <Col style={{ 'margin': '2px' }} md={2}>
+                                    <Card.Img className="technologies" src={reduxLogo} />
+                                </Col>
+                                <Col style={{ 'margin': '2px' }} md={2}>
+                                    <Card.Img className="technologies" src={jsLogo} />
+                                </Col>
+                                <Col style={{ 'margin': '2px' }} md={2}>
+                                    <Card.Img className="technologies" src={nodeLogo} />
+                                </Col>
+                                <Col style={{ 'margin': '2px' }} md={2}>
+                                    <Card.Img className="technologies" src={railsLogo} />
+                                </Col>
+                                <Col style={{ 'margin': '2px' }} md={2}>
+                                    <Card.Img className="technologies" src={postgresSqlLogo} />
+                                </Col>
+                                <Col style={{ 'margin': '2px' }} md={2}>
+                                    <Card.Img className="technologies" src={gitHubLogo} />
+                                </Col>
+
+
+                            </Row>
                         </Card>
                     </Col>
                     <Col md={7} style={{ 'padding': '50px' }}>

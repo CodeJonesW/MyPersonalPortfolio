@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Card, Row, Col, Container } from "react-bootstrap"
-import github from '../../images/Github_Logo.png'
-import github_2 from '../../images/Github_Logo_2.png'
+import github from '../../images/github_logo_PNG.png'
 import gmail from '../../images/Gmail_logo.png'
 import twitter from '../../images/twitter_logo.png'
 import linkedIn from '../../images/LinkedIn_logo.jpg'

@@ -25,7 +25,7 @@ class Art extends React.Component {
                     <Col md={4}>
                         <Card className="m-4" style={{ 'padding': '10px' }}>
 
-                            <a href="https://willjonesglassworks.net">
+                            <a href="https://willjonesglassworks.net" target="_blank">
                                 <Card.Img src={wjgw} id="wjgw" ></Card.Img>
                             </a>
 
