@@ -13,6 +13,8 @@ import dockerLogo from '../../images/docker-logo.png'
 import typescriptLogo from '../../images/typescript_logo.png'
 import rubyLogo from '../../images/ruby_Logo.png'
 import bootstrapLogo from '../../images/bootstrap_logo.png'
+import tddLogo from '../../images/tdd_logo.png'
+
 
 
 
@@ -50,13 +52,13 @@ class About extends React.Component {
                     <Col md={6} style={{ 'padding': '50px' }}>
                         <Card className="m-3" >
                             <Card.Body>
-                                Full stack web developer with a love for creating, problem solving, and improving user’s relationships with
-                                websites. Experience in JavaScript, React, Ruby on Rails, and a
-                                background in craft and design. Ability to work on a team comprised of different perspectives
-                                and has been recognized for synthesizing ideas in a fluid and productive way.
-                                Strives to use and continually learn the best communication techniques both in technical and interpersonal experiences.
-                                Possesses the drive and intuition to work independently. The combination of these talents can help unify cross functional teams,
-                                maintain a high level of productivity and create a positive impact.
+                                As a full-stack web developer, I love creating, problem solving, and improving users's website experience.
+                                I have experience writing code in a multitude of languages and frameworks including
+                                JavaScript, React, Node.js, and Rails. I currently work for CSTech developing ecommerce backend architechure.
+                                using Node.js. I am also a full-stack engineer mentor who provides tutoring to students learning to code all over America.
+                                I strive to use and continually learn the best communication techniques in order to convey my ideas about software in the most understandable
+                                way possible. I am driven to work independently, but also enjoy team collaboration. I enjoy
+                                maintaining a high level of productivity and creating positive impact.
                             </Card.Body>
                         </Card>
                     </Col>
@@ -117,6 +119,9 @@ class About extends React.Component {
                                 </Col>
                                 <Col style={{ 'margin': '1px' }} md={2}>
                                     <Card.Img className="technologies" src={bootstrapLogo} />
+                                </Col>
+                                <Col style={{ 'margin': '1px' }} md={2}>
+                                    <Card.Img className="technologies" src={tddLogo} />
                                 </Col>
 
 
