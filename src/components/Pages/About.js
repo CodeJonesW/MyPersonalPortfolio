@@ -7,6 +7,16 @@ import reduxLogo from '../../images/redux_logo.png'
 import nodeLogo from '../../images/NodeJS_logo.png'
 import postgresSqlLogo from '../../images/postgres_logo.png'
 import gitHubLogo from '../../images/github_logo_PNG.png'
+import cssLogo from '../../images/css_logo_>.png'
+import htmlLogo from '../../images/HTML_Logo.png'
+import dockerLogo from '../../images/docker-logo.png'
+import typescriptLogo from '../../images/typescript_logo.png'
+import rubyLogo from '../../images/ruby_Logo.png'
+import bootstrapLogo from '../../images/bootstrap_logo.png'
+
+
+
+
 
 
 import { Card, Row, Col, Container } from "react-bootstrap"
@@ -69,26 +79,44 @@ class About extends React.Component {
                         </Card>
                         <Card >
                             <Row className="d-flex justify-content-center m-1">
-                                <Col style={{ 'margin': '2px' }} md={2}>
+                                <Col style={{ 'margin': '1px' }} md={2}>
                                     <Card.Img className="technologies" src={reactLogo} />
                                 </Col>
-                                <Col style={{ 'margin': '2px' }} md={2}>
+                                <Col style={{ 'margin': '1px' }} md={2}>
                                     <Card.Img className="technologies" src={reduxLogo} />
                                 </Col>
-                                <Col style={{ 'margin': '2px' }} md={2}>
+                                <Col style={{ 'margin': '1px' }} md={2}>
                                     <Card.Img className="technologies" src={jsLogo} />
                                 </Col>
-                                <Col style={{ 'margin': '2px' }} md={2}>
+                                <Col style={{ 'margin': '1px' }} md={2}>
                                     <Card.Img className="technologies" src={nodeLogo} />
                                 </Col>
-                                <Col style={{ 'margin': '2px' }} md={2}>
+                                <Col style={{ 'margin': '1px' }} md={2}>
                                     <Card.Img className="technologies" src={railsLogo} />
                                 </Col>
-                                <Col style={{ 'margin': '2px' }} md={2}>
+                                <Col style={{ 'margin': '1px' }} md={2}>
+                                    <Card.Img className="technologies" src={rubyLogo} />
+                                </Col>
+                                <Col style={{ 'margin': '1px' }} md={2}>
                                     <Card.Img className="technologies" src={postgresSqlLogo} />
                                 </Col>
-                                <Col style={{ 'margin': '2px' }} md={2}>
+                                <Col style={{ 'margin': '1px' }} md={2}>
                                     <Card.Img className="technologies" src={gitHubLogo} />
+                                </Col>
+                                <Col style={{ 'margin': '1px' }} md={2}>
+                                    <Card.Img className="technologies" src={cssLogo} />
+                                </Col>
+                                <Col style={{ 'margin': '1px' }} md={2}>
+                                    <Card.Img className="technologies" src={htmlLogo} />
+                                </Col>
+                                <Col style={{ 'margin': '1px' }} md={2}>
+                                    <Card.Img className="technologies" src={dockerLogo} />
+                                </Col>
+                                <Col style={{ 'margin': '1px' }} md={2}>
+                                    <Card.Img className="technologies" src={typescriptLogo} />
+                                </Col>
+                                <Col style={{ 'margin': '1px' }} md={2}>
+                                    <Card.Img className="technologies" src={bootstrapLogo} />
                                 </Col>
 
 

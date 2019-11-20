@@ -51,7 +51,7 @@ export default class MyNav extends React.Component {
 
     render() {
         return (
-            <Navbar id="navBaR" expand="md">
+            <Navbar id="navBaR" type="light" expand="md">
 
                 <NavbarToggler onClick={this.toggleNavbar} />
 
