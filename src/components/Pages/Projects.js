@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Project1 from '../Cards/Project1';
-import Project2 from '../Cards/Project2';
+import Project1 from '../ProjectCards/Project1';
+import Project2 from '../ProjectCards/Project2';
 import { Row, Col } from "react-bootstrap"
 import { Card, CardHeader } from "shards-react";
 class Projects extends React.Component {
@@ -15,15 +15,15 @@ class Projects extends React.Component {
                 </Row>
 
                 <Row className="d-flex justify-content-center m-3">
-                    <Col md={3}>
+                    <Col style={{ "minWidth": "250px" }} md={3}>
                         <Project2 />
                     </Col>
 
-                    <Col md={3}>
+                    <Col style={{ "minWidth": "250px" }} md={3}>
                         <Project2 />
                     </Col>
 
-                    <Col md={3}>
+                    <Col style={{ "minWidth": "250px" }} md={3}>
                         <Project2 />
                     </Col>
                 </Row>

@@ -58,23 +58,23 @@ export default class MyNav extends React.Component {
                 <Collapse open={this.state.collapseOpen} navbar>
                     <Nav navbar>
                         <NavItem >
-                            <NavLink href="/">
+                            <NavLink id="navItem" href="/">
                                 William Jones
                     </NavLink>
                         </NavItem>
 
                         <NavItem>
-                            <NavLink href="/projects">
+                            <NavLink id="navItem" href="/projects">
                                 Projects
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/art">
+                            <NavLink id="navItem" href="/art">
                                 Art
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/contact">
+                            <NavLink id="navItem" href="/contact">
                                 Contact
                             </NavLink>
                         </NavItem>

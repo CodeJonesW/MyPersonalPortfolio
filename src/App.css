@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Helvetica;
 }
 
 #body {
@@ -34,8 +35,17 @@
 
 #navBar {
   float: right;
-  color: blue;
+  color: darkblue;
 
+}
+
+#navItem {
+}
+
+#navItem:hover {
+  font-style: underline;
+  opacity: .6;
+  text-decoration: underline
 }
 
 #CalorieTrackerImg {
@@ -76,10 +86,15 @@
 .circleLogo {
   width: 80px;
   height: 80px;
-  /* display: block; */
-  /* max-width: 100%; */
-  /* height: auto; */
   clip-path: circle(32px at center);
+}
+
+.squareLogo:hover {
+  opacity: .8;
+}
+
+.circleLogo:hover {
+  opacity: .8;
 }
 
 #wjgw {
@@ -88,10 +103,16 @@
   height: auto;
 }
 
+#wjgw:hover {
+  opacity: 0.8;
+}
+
+
 #NasaImg {
   display: block; 
-  max-width: 100%;
-  height: auto;
+  max-width: auto;
+  max-height: 500px;
+  
   align-content: center;
 }
 
@@ -99,9 +120,23 @@
 .myButton {
   height: auto;
   width: 100%;
-  margin: 1px;
+  margin: 2px;
+  border-radius: 5px;
+  padding: 1px;
+  opacity: .8;
 }
 
+.myButton:hover {
+  opacity: 0.8;
+  background-color: darkblue;
+  color: white;
+}
+
+#resumeLogo {
+  max-width: 30px;
+  max-height: 30px;
+  margin: 10px;
+}
 
 .technologies {
   margin: 5px; 
@@ -109,4 +144,18 @@
   max-height: 50px;
   min-width: 40px;
   min-height: 30px;
+}
+
+
+
+#linkText {
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+
+}
+
+#resume:hover #linkText {
+  display: block;
 }
