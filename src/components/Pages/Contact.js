@@ -55,6 +55,7 @@ class Contact extends React.Component {
 
                 </Row>
 
+
             </div >
         );
     }

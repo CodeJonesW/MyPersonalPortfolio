@@ -14,7 +14,7 @@ import typescriptLogo from '../../images/typescript_logo.png'
 import rubyLogo from '../../images/ruby_Logo.png'
 import bootstrapLogo from '../../images/bootstrap_logo.png'
 import tddLogo from '../../images/tdd_logo.png'
-
+import resume from '../../images/resume_logo_2.png'
 
 
 
@@ -127,6 +127,16 @@ class About extends React.Component {
 
                             </Row>
                         </Card>
+                        <Card id="resume" style={{ 'margin': '50px', 'width': '70px' }}>
+
+                            <a href="https://learn.co/CodeJonesW/resume" target="_blank">
+                                <Card.Img className="technologies" src={resume} />
+                                <Card.Text id="linkText">Resume Link:</Card.Text>
+                            </a>
+
+                        </Card>
+
+
                     </Col>
                     <Col md={7} style={{ 'padding': '50px' }}>
                         <Card style={{ 'padding': '20px' }}>
@@ -140,6 +150,7 @@ class About extends React.Component {
                         </Card>
                     </Col>
                 </Row>
+
             </div >
         );
     }
