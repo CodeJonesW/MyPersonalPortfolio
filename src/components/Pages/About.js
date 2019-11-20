@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import selfie from '../../images/profile_picture.jpg'
+import jsLogo from '../../images/JavaScript_logo.png'
+import rubyLogo from '../../images/599-5993763_ruby-logo-transparent-ruby-on-rails-python-hd.png'
+import railsLogo from '../../images/rails-1-logo.png'
+import reactLogo from '../../images/react_logo.jpg'
+
 import { Card, Row, Col, Container } from "react-bootstrap"
 // import fetchNasaApi from '../../functions/functions'
 
@@ -42,17 +47,33 @@ class About extends React.Component {
                         </Card>
                     </Col>
                 </Row>
-                <Row>
+                <Row className="d-flex justify-content-center m-3">
                     <Col md={12} style={{ 'padding': '150px' }}>
+                        <Card >
+                            <Row>
+                                <Col>
+                                    <Card.Img className="technologies" src={reactLogo} />
+                                </Col>
+                                <Col>
+                                    <Card.Img className="technologies" src={jsLogo} />
+                                </Col>
+                                <Col>
+                                    <Card.Img className="technologies" src={rubyLogo} />
+                                </Col>
+                                <Col>
+                                    <Card.Img className="technologies" src={railsLogo} />
+                                </Col>
+                            </Row>
+                        </Card>
                     </Col>
                 </Row>
                 <Row>
                     <Col md={5} style={{ 'padding': '50px' }}>
                         <Card>
                             <Card.Body>
-                                I also really enjoy the learning in my free time.
+                                I enjoy the learning in my free time.
                                 History, astronomy, philosophy, and music are some of my favorite topics. Software development
-                                is the latest addition to that list. Playing music,
+                                has also become a top contender. Playing music,
                                 running, and cooking at home are some of my most frequented hobbies.
                             </Card.Body>
                         </Card>

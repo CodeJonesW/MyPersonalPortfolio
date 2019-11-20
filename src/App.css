@@ -99,4 +99,8 @@
 }
 
 
-
+.technologies {
+  margin: 5px; 
+  max-width: 50px;
+  height: auto;
+}

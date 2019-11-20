@@ -13,11 +13,11 @@ class Art extends React.Component {
                         <Card className="m-3" style={{ 'padding': '10px' }}>
 
                             <Card.Text style={{ 'margin': '10px' }}>
-                                Before finding my passion for technology, I designed and created scientific glass and art.
-                                Creating small components in order to combine into a higher functioning system is a common thread
+                                Before finding my passion for technology, I spent my time creating and designing glass art.
+                                Creating small components with the intention to combine them into a higher functioning system is a distinct commonality
                                 between software engineering and glassblowing design. While I still make glass art as a hobbiest,
-                                I have loved applying a familiar thought process to a new medium as I grow as technologist. My logo
-                                will link you to the Will Jones Glassworks website.
+                                I have loved applying a familiar thought process to a new medium as I grow as technologist. Click my logo
+                                to check out my art website.
                             </Card.Text>
 
                         </Card>
