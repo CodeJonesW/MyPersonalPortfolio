@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import HomePage from './components/Pages/HomePage';
 import Contact from './components/Pages/Contact'
 import Art from './components/Pages/Art'
 import About from './components/Pages/About'
@@ -9,9 +8,12 @@ import Projects from './components/Pages/Projects';
 import { Route, Switch, Redirect } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "shards-ui/dist/css/shards.min.css";
-import { slide as Menu } from 'react-burger-menu'
+import fetchNasaApi from '../src/functions/functions'
 
 class App extends React.Component {
+
+
+
 
   render() {
     return (
