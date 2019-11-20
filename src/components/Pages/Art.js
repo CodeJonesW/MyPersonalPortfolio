@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Card, Row, Col, Container } from "react-bootstrap"
 import wjgw from '../../images/wjgw.png'
+import ornaments from '../../images/ornaments.jpg'
 
 class Art extends React.Component {
 
@@ -22,7 +23,7 @@ class Art extends React.Component {
                         </Card>
                     </Col>
                     <Col md={4}>
-                        <Card className="m-3" style={{ 'padding': '10px' }}>
+                        <Card className="m-4" style={{ 'padding': '10px' }}>
 
                             <a href="https://willjonesglassworks.net">
                                 <Card.Img src={wjgw} id="wjgw" ></Card.Img>
@@ -31,6 +32,13 @@ class Art extends React.Component {
                         </Card>
                     </Col>
 
+                </Row>
+                <Row className="d-flex justify-content-center m-3">
+                    <Col md={4}>
+                        <Card>
+                            <Card.Img src={ornaments} />
+                        </Card>
+                    </Col>
                 </Row>
 
             </div >

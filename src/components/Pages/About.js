@@ -51,10 +51,9 @@ class About extends React.Component {
                         <Card>
                             <Card.Body>
                                 I also really enjoy the learning in my free time.
-                                History, philosophy, and music are some of my favorite topics. Software development
-                                is the latest addition to that list.
-                                Learning new music production techniques running, and cooking at home are some
-                                of my most frequented hobbies.
+                                History, astronomy, philosophy, and music are some of my favorite topics. Software development
+                                is the latest addition to that list. Playing music,
+                                running, and cooking at home are some of my most frequented hobbies.
                             </Card.Body>
                         </Card>
                     </Col>
@@ -65,7 +64,7 @@ class About extends React.Component {
                             </Card.Title>
                             <Card.Img id="NasaImg" src={this.state.astroDaily.url} />
                             <Card.Body>
-                                {this.state.astroDaily.explanation}
+                                {this.state.astroDaily.title}
                             </Card.Body>
                         </Card>
                     </Col>
