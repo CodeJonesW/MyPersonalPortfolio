@@ -99,9 +99,18 @@
 .myButton {
   height: auto;
   width: 100%;
-  margin: 1px;
+  margin: 2px;
+  border-radius: 5px;
+  padding: 1px;
+  
+  opacity: .8;
 }
 
+.myButton:hover {
+  opacity: 0.8;
+  background-color: darkblue;
+  color: white;
+}
 
 .technologies {
   margin: 5px; 

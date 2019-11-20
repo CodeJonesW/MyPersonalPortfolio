@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Project1 from '../Cards/Project1';
-import Project2 from '../Cards/Project2';
+import Project1 from '../ProjectCards/Project1';
+import Project2 from '../ProjectCards/Project2';
 import { Row, Col } from "react-bootstrap"
 import { Card, CardHeader } from "shards-react";
 class Projects extends React.Component {
