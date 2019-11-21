@@ -23,8 +23,14 @@ William Jones Personal Portfolio Website
   - Gmail
   
 --------------------------------------------------
-This is a React application created by William Jones
-Some Bootstrap styling used in combination with custom CSS.
+
+This is a React application created by William Jones.
+
+--------------------------------------------------------
+
+ Bootstrap/Custom CSS were used to create the visual design.
+ 
+---------------------------------------------------
 
 The Nasa Astronomy Daily card is acquired by fetching Nasa's public Api with that information available.
 
