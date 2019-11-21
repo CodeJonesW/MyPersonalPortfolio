@@ -48,7 +48,12 @@
   text-decoration: underline
 }
 
-#CalorieTrackerImg {
+.CalorieTrackerImg {
+  height: auto;
+  width: 100%;
+}
+
+.PetlantaPawsImg {
   height: auto;
   width: 100%;
 }
