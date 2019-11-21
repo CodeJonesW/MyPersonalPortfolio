@@ -23,9 +23,7 @@ class Projects extends React.Component {
                         <Project1 />
                     </Col>
 
-                    <Col style={{ "minWidth": "250px" }} md={3}>
-                        <Project2 />
-                    </Col>
+
                 </Row>
 
 

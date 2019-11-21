@@ -101,7 +101,7 @@ class About extends React.Component {
 
                     </Col>
                     <Col md={7} style={{ 'padding': '50px' }}>
-                        <Card id="astroCard" style={{ 'padding': '20px' }}>
+                        <Card id="astroCard" style={{ 'padding': '10px' }}>
                             <Card.Title>
                                 Nasa's Astronomy Picture of the Day
                             </Card.Title>
