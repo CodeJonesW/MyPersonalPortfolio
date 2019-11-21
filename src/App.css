@@ -39,8 +39,6 @@
 
 }
 
-#navItem {
-}
 
 #navItem:hover {
   font-style: underline;
@@ -54,6 +52,10 @@
 }
 
 .PetlantaPawsImg {
+  height: auto;
+  width: 100%;
+}
+.brewsterImg {
   height: auto;
   width: 100%;
 }
