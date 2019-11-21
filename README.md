@@ -1,5 +1,7 @@
 --------------------------------------------------
+
 William Jones Personal Portfolio Website
+
 --------------------------------------------------
 -About/Homepage
   -info
@@ -16,6 +18,7 @@ William Jones Personal Portfolio Website
   -Linkedin
   -Twitter
   -Gmail
+  
 --------------------------------------------------
 This is a React application created by William Jones
 Some Bootstrap styling used in combination with custom CSS.
