@@ -54,10 +54,10 @@ class About extends React.Component {
                         <Card className="m-3" >
                             <Card.Body>
                                 As a full-stack web developer, I love creating, problem solving, and improving users's website experience.
-                                I have written code in a multitude of languages and frameworks including
-                                JavaScript, React, Node.js, and Rails. I currently work for CSTech developing ecommerce backend architechure.
-                                I am also a full-stack engineer mentor who provides tutoring to bootcamp students learning to code.
-                                I strive to use and continually learn the best communication techniques in order to convey my ideas about software in the most understandable
+                                I have written code in a multitude of languages, but my currently favorite is Javascript. I work for CSTech
+                                developing ecommerce backend architechure. I am also a full-stack engineer mentor who provides tutoring to
+                                bootcamp students learning to code. I strive to use and continually learn the
+                                best communication techniques in order to convey my ideas about software in the most understandable
                                 way possible. I am driven to work independently, but also enjoy team collaboration. I enjoy
                                 maintaining a high level of productivity and creating positive impact.
                             </Card.Body>
