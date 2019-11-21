@@ -70,8 +70,8 @@ class About extends React.Component {
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={5} style={{ 'padding': '50px' }}>
-                        <Card style={{ 'margin': '50px' }}>
+                    <Col md={6} style={{ 'padding': '50px' }}>
+                        <Card style={{ 'margin': '25px', 'minWidth': '350px' }}>
                             <Card.Body>
                                 History, astronomy, philosophy, and music are some of my favorite topics. Software development
                                 has also become a top contender. Playing music,
@@ -80,7 +80,7 @@ class About extends React.Component {
                                 my development process.
                             </Card.Body>
                         </Card>
-                        <Card >
+                        <Card style={{ 'minWidth': '350px', 'margin': '25px' }} >
                             <Row className="d-flex justify-content-center m-1">
                                 {logos.map(logo =>
                                     <Col style={{ 'margin': '1px' }} md={2}>
@@ -100,8 +100,8 @@ class About extends React.Component {
 
 
                     </Col>
-                    <Col md={7} style={{ 'padding': '50px' }}>
-                        <Card id="astroCard" style={{ 'padding': '10px' }}>
+                    <Col md={6} style={{ 'padding': '50px' }}>
+                        <Card id="astroCard" style={{ 'margin': '10px', 'padding': '10px' }}>
                             <Card.Title>
                                 Nasa's Astronomy Picture of the Day
                             </Card.Title>
