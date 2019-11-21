@@ -4,11 +4,11 @@ William Jones Personal Portfolio Website
 
 --------------------------------------------------
 -About/Homepage
-  -info
-  -technologies
-  -interests
-  -Nasa Daily Astronomy Pic
-  -Resume
+  - info
+  - technologies
+  - interests
+  - Nasa Daily Astronomy Pic
+  - Resume
   
 -Projects
   - 3 Projects made at Flatiron School
@@ -17,10 +17,10 @@ William Jones Personal Portfolio Website
   - introduction to glass art
   
 -Contact
-  -Github
-  -Linkedin
-  -Twitter
-  -Gmail
+  - Github
+  - Linkedin
+  - Twitter
+  - Gmail
   
 --------------------------------------------------
 This is a React application created by William Jones
