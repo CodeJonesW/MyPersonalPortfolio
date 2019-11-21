@@ -39,8 +39,6 @@
 
 }
 
-#navItem {
-}
 
 #navItem:hover {
   font-style: underline;
@@ -48,7 +46,16 @@
   text-decoration: underline
 }
 
-#CalorieTrackerImg {
+.CalorieTrackerImg {
+  height: auto;
+  width: 100%;
+}
+
+.PetlantaPawsImg {
+  height: auto;
+  width: 100%;
+}
+.brewsterImg {
   height: auto;
   width: 100%;
 }
