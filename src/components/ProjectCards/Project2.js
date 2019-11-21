@@ -50,7 +50,7 @@ export default function Project2() {
                 </Carousel.Item>
             </Carousel>
             <CardBody>
-                <p>Chart calories in relation to food intake and exercises over time.</p>
+                <p>An app to chart calories in relation to food intake and exercises over time.</p>
 
 
 
