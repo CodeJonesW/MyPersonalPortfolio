@@ -58,8 +58,8 @@ class About extends React.Component {
                                 developing ecommerce backend architechure. I am also a full-stack engineer mentor who provides tutoring to
                                 bootcamp students learning to code. I strive to use and continually learn the
                                 best communication techniques in order to convey my ideas about software in the most understandable
-                                way possible. I am driven to work independently, but also enjoy team collaboration. I enjoy
-                                maintaining a high level of productivity and creating positive impact.
+                                way possible. I am driven to work independently, but also believe team collaboration is a fundamental part finding the best solutions.
+                                I enjoy maintaining a high level of productivity and creating positive impact.
                             </Card.Body>
                         </Card>
                     </Col>
