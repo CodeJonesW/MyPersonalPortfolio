@@ -71,7 +71,7 @@ class About extends React.Component {
                 </Row>
                 <Row>
                     <Col md={6} style={{ 'padding': '50px' }}>
-                        <Card style={{ 'margin': '25px', 'minWidth': '350px' }}>
+                        <Card style={{ 'margin': '25px', 'minWidth': '300px' }}>
                             <Card.Body>
                                 History, astronomy, philosophy, and music are some of my favorite topics. Software development
                                 has also become a top contender. Playing music,
@@ -80,7 +80,7 @@ class About extends React.Component {
                                 my development process.
                             </Card.Body>
                         </Card>
-                        <Card style={{ 'minWidth': '350px', 'margin': '25px' }} >
+                        <Card style={{ 'minWidth': '300px', 'margin': '25px' }} >
                             <Row className="d-flex justify-content-center m-1">
                                 {logos.map(logo =>
                                     <Col style={{ 'margin': '1px' }} md={2}>
