@@ -1,5 +1,5 @@
 import React from "react";
-import bug1 from '../../images/buginvaders/bug_shots.png'
+import bug1 from '../../images/buginvaders/BugInvader.png'
 
 
 import { Carousel, ButtonGroup, Button } from 'react-bootstrap'
