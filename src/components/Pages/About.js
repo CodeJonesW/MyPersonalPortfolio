@@ -15,16 +15,13 @@ import rubyLogo from '../../images/ruby_Logo.png'
 import bootstrapLogo from '../../images/bootstrap_logo.png'
 import tddLogo from '../../images/tdd_logo.png'
 import resume from '../../images/resume_logo_2.png'
-
-
-
-
-
-
 import { Card, Row, Col, Container } from "react-bootstrap"
 // import fetchNasaApi from '../../functions/functions'
+import mediaType from '../../functions/functions'
+
 
 const APIKEY = process.env.REACT_APP_API_KEY
+
 
 class About extends React.Component {
 
@@ -41,8 +38,12 @@ class About extends React.Component {
             .then(data => this.setState({ astroDaily: data }))
     }
 
+
+
     render() {
         let logos = [reactLogo, reduxLogo, jsLogo, nodeLogo, railsLogo, rubyLogo, postgresSqlLogo, gitHubLogo, cssLogo, htmlLogo, dockerLogo, typescriptLogo, bootstrapLogo, tddLogo];
+        let media
+        console.log(this.state.astroDaily)
         return (
             <div id="About">
                 <Row className="d-flex justify-content-center m-3">
@@ -105,7 +106,8 @@ class About extends React.Component {
                             <Card.Title>
                                 Nasa's Astronomy Picture of the Day
                             </Card.Title>
-                            <Card.Img id="NasaImg" src={this.state.astroDaily.url} />
+                            {mediaType(this.state.astroDaily)}
+                            {/* <Card.Img id="NasaImg" src={this.state.astroDaily.url} /> */}
                             <Card.Body>
                                 {this.state.astroDaily.title}
                             </Card.Body>
