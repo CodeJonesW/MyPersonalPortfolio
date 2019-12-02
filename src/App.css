@@ -129,6 +129,14 @@
   align-content: center;
 }
 
+#NasaVideo {
+  display: block; 
+  max-width: auto;
+  max-height: 500px;
+  
+  align-content: center;
+}
+
 
 .myButton {
   height: auto;
