@@ -107,7 +107,6 @@ class About extends React.Component {
                                 Nasa's Astronomy Picture of the Day
                             </Card.Title>
                             {mediaType(this.state.astroDaily)}
-                            {/* <Card.Img id="NasaImg" src={this.state.astroDaily.url} /> */}
                             <Card.Body>
                                 {this.state.astroDaily.title}
                             </Card.Body>
