@@ -4,9 +4,9 @@ William Jones Personal Portfolio Website
 
 --------------------------------------------------
 -About/Homepage
-  - info
-  - technologies
-  - interests
+  - Info
+  - Technologies
+  - Interests
   - Nasa Daily Astronomy Pic
   - Resume
   
@@ -14,7 +14,7 @@ William Jones Personal Portfolio Website
   - 3 Projects made at Flatiron School
   
 -Art
-  - introduction to glass art
+  - Introduction to glass art
   
 -Contact
   - Github
