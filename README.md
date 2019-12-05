@@ -32,7 +32,7 @@ This is a React application created by William Jones.
  
 ---------------------------------------------------
 
-The Nasa Astronomy Daily card is acquired by fetching Nasa's public Api with that information available.
+The Nasa Astronomy Daily card is acquired by fetching Nasa's public Api.
 
 
 --------------------------------------------------
