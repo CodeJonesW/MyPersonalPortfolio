@@ -54,8 +54,8 @@ class About extends React.Component {
                     <Col md={6} style={{ 'padding': '50px' }}>
                         <Card className="m-3" >
                             <Card.Body>
-                                As a full-stack web developer, I love creating, problem solving, and improving users's website experience.
-                                I have written code in a multitude of languages, but my current favorite is Javascript. I work for CSTech
+                                As a full-stack web developer, I love creating, problem solving, and improving website experiences.
+                                I have written code in a multitude of languages and am always striving to learn more. I currently work for CSTech
                                 developing ecommerce backend architechure. I am also a full-stack engineer tutor who provides assitance to
                                 bootcamp students learning to code. I strive to use and continually learn the
                                 best communication techniques in order to convey my ideas about software in the most understandable
