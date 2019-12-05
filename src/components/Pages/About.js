@@ -90,14 +90,14 @@ class About extends React.Component {
                                 )}
                             </Row>
                         </Card>
-                        <Card id="resume" style={{ 'margin': '25px', 'width': '70px' }}>
+                        {/* <Card id="resume" style={{ 'margin': '25px', 'width': '70px' }}>
 
                             <a href="https://learn.co/CodeJonesW/resume" target="_blank">
                                 <Card.Img id="resumeLogo" src={resume} />
                                 <Card.Text id="linkText">Resume Link:</Card.Text>
                             </a>
 
-                        </Card>
+                        </Card> */}
 
 
                     </Col>
