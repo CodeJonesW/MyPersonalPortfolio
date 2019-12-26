@@ -16,8 +16,8 @@ class Art extends React.Component {
                                 Before finding my passion for technology, I spent my time creating and designing glass art.
                                 Creating small components with the intention to combine them into a higher functioning system is a distinct commonality
                                 between software engineering and glassblowing design. While I still make glass art as a hobbiest,
-                                I have loved applying a familiar thought process to a new medium as I grow as technologist. Click my logo
-                                to check out my art website.
+                                I have loved applying a familiar thought process to a new medium as I grow as technologist. I am currently rebuilding
+                                WJGW's website.
                             </Card.Text>
 
                         </Card>
@@ -25,9 +25,9 @@ class Art extends React.Component {
                     <Col md={4}>
                         <Card className="m-4" style={{ 'padding': '10px' }}>
 
-                            <a href="https://willjonesglassworks.net" target="_blank">
-                                <Card.Img src={wjgw} id="wjgw" ></Card.Img>
-                            </a>
+                            {/* <a href="https://willjonesglassworks.net" target="_blank"> */}
+                            <Card.Img src={wjgw} id="wjgw" ></Card.Img>
+                            {/* </a> */}
 
                         </Card>
                     </Col>
