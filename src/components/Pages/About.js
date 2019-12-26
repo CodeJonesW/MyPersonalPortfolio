@@ -56,10 +56,10 @@ class About extends React.Component {
                             <Card.Body>
                                 As a full-stack web developer, I love creating, problem solving, and improving website experiences.
                                 I have written code in a multitude of languages and am always striving to learn more. I currently work for CSTech
-                                developing ecommerce backend architechure and provide tutoring to
-                                bootcamp students learning to code. Learning the best communication techniques in order to
-                                convey my ideas about software is an ongoing goal of mine. I am driven to work independently, but also believe team collaboration is a fundamental part of finding the best solutions.
-                                I enjoy maintaining a high level of productivity and creating positive impact.
+                                developing ecommerce backend architechure and provide tutoring assitance to
+                                bootcamp students learning to code. Consistantly improving  my communication techniques in regards to
+                                software is an important ongoing goal of mine. I am driven to work independently, but also believe
+                                team collaboration is a fundamental part of finding the best solutions.
                             </Card.Body>
                         </Card>
                     </Col>
@@ -73,9 +73,8 @@ class About extends React.Component {
                     <Col md={6} style={{ 'padding': '50px' }}>
                         <Card style={{ 'margin': '25px', 'minWidth': '300px' }}>
                             <Card.Body>
-                                History, astronomy, philosophy, and music are some of my favorite topics. Software development
-                                has also become a top contender. Playing music,
-                                running, and cooking at home are some of my most frequented hobbies.
+                                Outside of software, I enjoy learning about history, astronomy, philosophy, and music.
+                                Playing guitar, running, and cooking at home are some of my favorite hobbies.
                                 I am always learning new languages, frameworks, and other technologies to advance
                                 my development process.
                             </Card.Body>
