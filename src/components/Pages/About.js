@@ -18,7 +18,7 @@ import resume from '../../images/resume_logo_2.png'
 import { Card, Row, Col, Container } from "react-bootstrap"
 // import fetchNasaApi from '../../functions/functions'
 import mediaType from '../../functions/functions'
-
+import githubCalendar from 'github-calendar'
 
 const APIKEY = process.env.REACT_APP_API_KEY
 
@@ -36,6 +36,8 @@ class About extends React.Component {
         fetch(`https://api.nasa.gov/planetary/apod?api_key=${APIKEY}`)
             .then(res => res.json())
             .then(data => this.setState({ astroDaily: data }))
+
+        githubCalendar(".calendar", "CodeJonesW", { responsive: true });
     }
 
 
@@ -66,7 +68,9 @@ class About extends React.Component {
                 </Row>
                 <Row className="d-flex justify-content-center m-3">
                     <Col md={12} style={{ 'padding': '150px' }}>
+                        <div class="calendar">
 
+                        </div>
                     </Col>
                 </Row>
                 <Row>
