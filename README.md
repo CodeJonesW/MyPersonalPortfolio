@@ -6,9 +6,9 @@ William Jones Personal Portfolio Website
 -About/Homepage
   - Info
   - Technologies
+  - Github Calendar
   - Interests
   - Nasa Daily Astronomy Pic
-  - Resume
   
 -Projects
   - 3 Projects made at Flatiron School
