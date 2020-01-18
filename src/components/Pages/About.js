@@ -50,10 +50,10 @@ class About extends React.Component {
             <div id="About">
                 <Row className="d-flex justify-content-center m-3">
                     <Col md={5}>
-                        <img className="m-3" id="profilepic" src={selfie} alt="hi" />
+                        <img className="m-3" id="profilepic" src={selfie} alt="Profile Picture" />
                     </Col>
 
-                    <Col md={6} style={{ 'padding': '50px' }}>
+                    <Col md={6} style={{ 'padding': '5vh', 'min-width': '40vh' }}>
                         <Card className="m-3" >
                             <Card.Body>
                                 As a full-stack web developer, I love creating, problem solving, and improving website experiences.
