@@ -67,7 +67,7 @@ class About extends React.Component {
                     </Col>
                 </Row>
                 <Row className="d-flex justify-content-center m-3">
-                    <Col md={12} style={{ 'padding': '250px' }}>
+                    <Col md={12} style={{ 'padding': '250px', 'margin': '20px' }}>
                         <div class="calendar">
 
                         </div>
