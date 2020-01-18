@@ -192,6 +192,12 @@
   /* min-width: 40vh; */
 }
 
+@media only screen and (max-width: 852px) {
+  .calendar {
+      display: none;
+  }
+}
+
 
 
 
