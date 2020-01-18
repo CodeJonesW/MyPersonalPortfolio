@@ -73,7 +73,7 @@ class About extends React.Component {
                         </div>
                     </Col>
                 </Row>
-                <Row>
+                <Row >
                     <Col md={6} style={{ 'padding': '50px' }}>
                         <Card style={{ 'margin': '25px', 'minWidth': '300px' }}>
                             <Card.Body>
