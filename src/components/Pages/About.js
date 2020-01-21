@@ -56,12 +56,7 @@ class About extends React.Component {
                     <Col md={6} style={{ 'padding': '5vh', 'min-width': '40vh' }}>
                         <Card className="m-3" >
                             <Card.Body>
-                                As a full-stack web developer, I love creating, problem solving, and improving website experiences.
-                                I have written code in a multitude of languages and am always striving to learn more. I currently work for CSTech
-                                developing ecommerce backend architechure and provide tutoring assitance to
-                                bootcamp students learning to code. Consistently improving  my communication techniques in regards to
-                                software is an important ongoing goal of mine. I am driven to work independently, but also believe
-                                team collaboration is a fundamental part of finding the best solutions.
+                                As a full-stack web developer, I love creating, problem solving, and improving website experiences. I have written code in a multitude of languages and am always striving to learn more. I currently work for CSTech developing ecommerce backend architecture and provide tutoring assistance to bootcamp students learning to code. Consistently improving my communication techniques in regards to software is an important ongoing goal of mine. I am driven to work independently, but also believe team collaboration is a fundamental part of finding the best solutions.
                             </Card.Body>
                         </Card>
                     </Col>
