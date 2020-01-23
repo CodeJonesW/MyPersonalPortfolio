@@ -15,6 +15,7 @@ import rubyLogo from '../../images/ruby_Logo.png'
 import bootstrapLogo from '../../images/bootstrap_logo.png'
 import tddLogo from '../../images/tdd_logo.png'
 import jQueryLogo from '../../images/jquery.png'
+import expressLogo from '../../images/express_logo2.webp'
 import resume from '../../images/resume_logo_2.png'
 import { Card, Row, Col, Container } from "react-bootstrap"
 // import fetchNasaApi from '../../functions/functions'
@@ -44,7 +45,7 @@ class About extends React.Component {
 
 
     render() {
-        let logos = [reactLogo, reduxLogo, jsLogo, nodeLogo, railsLogo, rubyLogo, postgresSqlLogo, gitHubLogo, cssLogo, htmlLogo, dockerLogo, typescriptLogo, bootstrapLogo, tddLogo, jQueryLogo];
+        let logos = [reactLogo, reduxLogo, jsLogo, nodeLogo, expressLogo, railsLogo, rubyLogo, postgresSqlLogo, gitHubLogo, cssLogo, htmlLogo, dockerLogo, typescriptLogo, bootstrapLogo, tddLogo, jQueryLogo];
         let media
         console.log(this.state.astroDaily)
         return (
