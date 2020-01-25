@@ -159,13 +159,7 @@
   margin: 10px;
 }
 
-.technologies {
-  margin: 5px; 
-  max-width: 60px;
-  max-height: 50px;
-  min-width: 40px;
-  min-height: 30px;
-}
+
 
 
 
@@ -197,6 +191,21 @@
       display: none;
   }
 }
+
+
+.technologies {
+  margin: 5px; 
+  max-width: 60px;
+  max-height: 50px;
+  min-width: 40px;
+  min-height: 30px;
+}
+
+
+.technologies:hover .toolTip {
+  visibility: visible;
+}
+
 
 
 

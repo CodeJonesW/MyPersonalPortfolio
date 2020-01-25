@@ -84,7 +84,10 @@ class About extends React.Component {
                             <Row className="d-flex justify-content-center m-1">
                                 {logos.map(logo =>
                                     <Col style={{ 'margin': '1px' }} md={2}>
+
                                         <Card.Img className="technologies" src={logo} />
+
+
                                     </Col>
                                 )}
                             </Row>
