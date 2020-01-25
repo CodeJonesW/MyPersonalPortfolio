@@ -201,7 +201,7 @@
   min-height: 30px;
 }
 
-
+/* code to start hover of technology info img */
 .technologies:hover .toolTip {
   visibility: visible;
 }
