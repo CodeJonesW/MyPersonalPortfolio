@@ -45,7 +45,7 @@ class About extends React.Component {
 
 
     render() {
-        let logos = [reactLogo, reduxLogo, jsLogo, nodeLogo, expressLogo, railsLogo, rubyLogo, postgresSqlLogo, gitHubLogo, cssLogo, htmlLogo, dockerLogo, typescriptLogo, bootstrapLogo, tddLogo, jQueryLogo];
+        let logos = [reactLogo, reduxLogo, jsLogo, nodeLogo, expressLogo, railsLogo, rubyLogo, postgresSqlLogo, gitHubLogo, cssLogo, htmlLogo, jQueryLogo, dockerLogo, typescriptLogo, bootstrapLogo, tddLogo];
         let media
         console.log(this.state.astroDaily)
         return (
