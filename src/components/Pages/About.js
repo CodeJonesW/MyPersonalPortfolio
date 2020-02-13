@@ -5,6 +5,7 @@ import railsLogo from '../../images/rails-1-logo.png'
 import reactLogo from '../../images/react_logo_.png'
 import reduxLogo from '../../images/redux_logo.png'
 import nodeLogo from '../../images/NodeJS_logo.png'
+import scroll from '../../images/scroll_down_arrow.png'
 import postgresSqlLogo from '../../images/postgres_logo.png'
 import gitHubLogo from '../../images/github_logo_PNG.png'
 import cssLogo from '../../images/css_logo_>.png'
@@ -58,9 +59,16 @@ class About extends React.Component {
                     <Col md={6} style={{ 'padding': '5vh', 'min-width': '40vh' }}>
                         <Card className="m-3" >
                             <Card.Body>
-                                As a full-stack web developer, I love creating, problem solving, and improving website experiences. I have written code in a variety of languages and am always striving to learn more. Currently, I provide one on one tutoring to bootcamp students learning to code in Javascript. Consistently improving my communication techniques in regards to software is an important ongoing goal of mine. I am driven to work independently, but also believe team collaboration is a fundamental part of finding the best solutions. Outside of work, I love creating on small tools to increase the efficiency of daily tasks.
+                                As a full-stack web developer, I love creating, problem solving, and improving website experiences. I have written code in a variety of languages and am always striving to learn more. Currently, I provide one on one tutoring to bootcamp students learning to code in Javascript. Consistently improving my communication techniques in regards to software is an important ongoing goal of mine. I am driven to work independently, but also believe team collaboration is a fundamental part of finding the best solutions. Outside of work, I love creating on small projects to increase the efficiency of daily tasks.
                             </Card.Body>
                         </Card>
+                    </Col>
+                </Row>
+                <Row className="d-flex justify-content-center m-3">
+                    <Col md={12} style={{ 'padding': '20px', 'margin': '20px' }}>
+
+                        <img src={scroll} id="arrow" class="animated bounce" />
+
                     </Col>
                 </Row>
                 <Row className="d-flex justify-content-center m-3">
