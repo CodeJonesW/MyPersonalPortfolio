@@ -65,7 +65,7 @@ class About extends React.Component {
                     </Col>
                 </Row>
                 <Row className="d-flex justify-content-center m-3">
-                    <Col md={12} style={{ 'padding': '20px', 'margin': '20px' }}>
+                    <Col md={12} style={{ 'padding': '3px', 'margin': '20px' }}>
 
                         <img src={scroll} id="arrow" class="animated bounce" />
 
