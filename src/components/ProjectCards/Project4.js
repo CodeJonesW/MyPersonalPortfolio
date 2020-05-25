@@ -34,6 +34,9 @@ export default function Project4() {
                 <a href="https://bug-invaders.web.app/" target="_blank">
                     <button size='sm' className="myButton" >Live Website &rarr;</button>
                 </a>
+                <a href="https://github.com/CodeJonesW/bug_invaders_frontend" target="_blank">
+                    <button size='sm' className="myButton" >Github &rarr;</button>
+                </a>
 
             </CardBody>
 

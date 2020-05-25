@@ -57,6 +57,9 @@ export default function Project2() {
                 <a href="https://calorietracker-i-o.web.app/profile" target="_blank">
                     <button size='sm' className="myButton" >Live Website &rarr;</button>
                 </a>
+                <a href="https://github.com/CodeJonesW/CalorieTracker_I-O" target="_blank">
+                    <button size='sm' className="myButton" >Github &rarr;</button>
+                </a>
 
             </CardBody>
 

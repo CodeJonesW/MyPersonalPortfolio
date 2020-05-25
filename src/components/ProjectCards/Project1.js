@@ -52,6 +52,9 @@ export default function Project1() {
                 <a href="https://petlanta-paws-app.herokuapp.com/login" target="_blank">
                     <button size='sm' className="myButton" >Live Website &rarr;</button>
                 </a>
+                <a href="https://github.com/CodeJonesW/Petlanta_Paws" target="_blank">
+                    <button size='sm' className="myButton" >Github &rarr;</button>
+                </a>
 
             </CardBody>
 

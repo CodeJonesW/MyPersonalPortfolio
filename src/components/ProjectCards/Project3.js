@@ -42,6 +42,10 @@ export default function Project2() {
                 <a href="https://brewster-4d53f.firebaseapp.com/login" target="_blank">
                     <button size='sm' className="myButton" >Live Website &rarr;</button>
                 </a>
+                <a href="https://github.com/CodeJonesW/Brewster" target="_blank">
+                    <button size='sm' className="myButton" >Github &rarr;</button>
+                </a>
+
 
             </CardBody>
 

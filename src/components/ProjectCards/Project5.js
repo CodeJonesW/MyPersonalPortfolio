@@ -34,6 +34,9 @@ export default function Project4() {
                 <a href="https://codejonesw.github.io/MetronomeApp/?" target="_blank">
                     <button size='sm' className="myButton" >Live Website &rarr;</button>
                 </a>
+                <a href="https://github.com/CodeJonesW/MetronomeApp" target="_blank">
+                    <button size='sm' className="myButton" >Github &rarr;</button>
+                </a>
 
             </CardBody>
 
