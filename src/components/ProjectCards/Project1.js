@@ -45,7 +45,7 @@ export default function Project1() {
                 </Carousel.Item>
             </Carousel>
             <CardBody>
-                <p>An app for users to adopt and find new homes for animal friends.</p>
+                <p>Adopt and find new homes for animal friends.</p>
 
 
 

@@ -24,7 +24,7 @@ export default function Project2() {
 
     return (
         <Card className="Card m-3">
-            <CardHeader>CalorieTracker I/O</CardHeader>
+            <CardHeader>CalorieTracker</CardHeader>
 
             <Carousel className="carouselItem" controls={true} interval={null} slide={true} wrap={true}>
                 <Carousel.Item >
@@ -50,7 +50,7 @@ export default function Project2() {
                 </Carousel.Item>
             </Carousel>
             <CardBody>
-                <p>An app to chart calories in relation to food intake and exercises over time.</p>
+                <p>Compare food intake and exercises over time.</p>
 
 
 

@@ -35,7 +35,7 @@ export default function Project2() {
 
             </Carousel>
             <CardBody>
-                <p>An app to allow users to find, review, and save their favorite craft beers.</p>
+                <p>Find, review, and save favorite craft beers.</p>
 
 
 
