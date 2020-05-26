@@ -45,12 +45,15 @@ export default function Project1() {
                 </Carousel.Item>
             </Carousel>
             <CardBody>
-                <p>An app for users to adopt and find new homes for animal friends.</p>
+                <p>Adopt and find new homes for animal friends.</p>
 
 
 
                 <a href="https://petlanta-paws-app.herokuapp.com/login" target="_blank">
                     <button size='sm' className="myButton" >Live Website &rarr;</button>
+                </a>
+                <a href="https://github.com/CodeJonesW/Petlanta_Paws" target="_blank">
+                    <button size='sm' className="myButton" >Github &rarr;</button>
                 </a>
 
             </CardBody>

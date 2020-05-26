@@ -1,5 +1,5 @@
 import React from "react";
-import bug1 from '../../images/buginvaders/BugInvader.png'
+import metronome1 from '../../images/metronome/Screen Shot 2020-05-25 at 12.16.15 PM.png'
 
 
 import { Carousel, ButtonGroup, Button } from 'react-bootstrap'
@@ -18,23 +18,23 @@ export default function Project4() {
 
     return (
         <Card className="Card m-3">
-            <CardHeader>Bug Invaders</CardHeader>
+            <CardHeader>Metronome</CardHeader>
 
             <Carousel className="carouselItem" controls={false} interval={null} slide={false} wrap={false}>
                 <Carousel.Item >
-                    <CardImg src={bug1} className="bugInvaderImg" />
+                    <CardImg src={metronome1} className="bugInvaderImg" />
                 </Carousel.Item>
 
             </Carousel>
             <CardBody>
-                <p> A single page app that replicates a classic shooter arcade game.</p>
+                <p> Simple metronome application for keeping time in music.</p>
 
 
 
-                <a href="https://bug-invaders.web.app/" target="_blank">
+                <a href="https://codejonesw.github.io/MetronomeApp/?" target="_blank">
                     <button size='sm' className="myButton" >Live Website &rarr;</button>
                 </a>
-                <a href="https://github.com/CodeJonesW/bug_invaders_frontend" target="_blank">
+                <a href="https://github.com/CodeJonesW/MetronomeApp" target="_blank">
                     <button size='sm' className="myButton" >Github &rarr;</button>
                 </a>
 

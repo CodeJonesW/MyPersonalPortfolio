@@ -24,7 +24,7 @@ export default function Project2() {
 
     return (
         <Card className="Card m-3">
-            <CardHeader>CalorieTracker I/O</CardHeader>
+            <CardHeader>CalorieTracker</CardHeader>
 
             <Carousel className="carouselItem" controls={true} interval={null} slide={true} wrap={true}>
                 <Carousel.Item >
@@ -50,12 +50,15 @@ export default function Project2() {
                 </Carousel.Item>
             </Carousel>
             <CardBody>
-                <p>An app to chart calories in relation to food intake and exercises over time.</p>
+                <p>Compare food intake and exercises over time.</p>
 
 
 
                 <a href="https://calorietracker-i-o.web.app/profile" target="_blank">
                     <button size='sm' className="myButton" >Live Website &rarr;</button>
+                </a>
+                <a href="https://github.com/CodeJonesW/CalorieTracker_I-O" target="_blank">
+                    <button size='sm' className="myButton" >Github &rarr;</button>
                 </a>
 
             </CardBody>
