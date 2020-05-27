@@ -59,7 +59,7 @@ class About extends React.Component {
                     <Col md={6} style={{ 'padding': '5vh', 'min-width': '40vh' }}>
                         <Card className="m-3" >
                             <Card.Body>
-                                As a passionate technologist, I love creating, problem solving, and improving application experiences. I have written code in a variety of languages and am always striving to learn more. Currently, I provide one on one tutoring to bootcamp students learning to code in Javascript. Consistently improving my communication techniques in regards to software is an important ongoing goal of mine. I am driven to work independently, but also believe team collaboration is a fundamental part of finding the best solutions. Outside of work, I enjoy creating projects to increase the efficiency of daily tasks.
+                                As a passionate technologist, I love creating, problem solving, and improving application experiences. I have written code in a variety of languages and am always striving to learn more. Currently, I provide one on one tutoring to bootcamp students learning Mongo, Express, React, and Node (MERN). Consistently improving my communication techniques in regards to software is an important ongoing goal of mine. I am driven to work independently, but also believe team collaboration is a fundamental part of finding the best solutions.
                             </Card.Body>
                         </Card>
                     </Col>
