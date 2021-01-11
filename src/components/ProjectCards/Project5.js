@@ -1,5 +1,6 @@
 import React from "react";
-import metronome1 from '../../images/metronome/Screen Shot 2020-05-25 at 12.16.15 PM.png'
+import standup1 from '../../images/standUp.png'
+import standup2 from '../../images/standUp2.png'
 
 
 import { Carousel, ButtonGroup, Button } from 'react-bootstrap'
@@ -18,23 +19,26 @@ export default function Project4() {
 
     return (
         <Card className="Card m-3">
-            <CardHeader>Metronome</CardHeader>
+            <CardHeader>standUp</CardHeader>
 
-            <Carousel className="carouselItem" controls={false} interval={null} slide={false} wrap={false}>
+            <Carousel className="carouselItem" controls={true} interval={null} slide={true} wrap={true}>
                 <Carousel.Item >
-                    <CardImg src={metronome1} className="bugInvaderImg" />
+                    <CardImg src={standup2} className="bugInvaderImg" />
+                </Carousel.Item>
+                <Carousel.Item >
+                    <CardImg src={standup1} className="bugInvaderImg" />
                 </Carousel.Item>
 
             </Carousel>
             <CardBody>
-                <p> Simple metronome application for keeping time in music.</p>
+                <p> React, Node, Express, Sequelize Daily Developer StandUp app</p>
 
 
 
-                <a href="https://codejonesw.github.io/MetronomeApp/?" target="_blank">
+                <a href="https://standup-eba73.firebaseapp.com/" target="_blank">
                     <button size='sm' className="myButton" >Live Website &rarr;</button>
                 </a>
-                <a href="https://github.com/CodeJonesW/MetronomeApp" target="_blank">
+                <a href="https://github.com/CodeJonesW/standUp" target="_blank">
                     <button size='sm' className="myButton" >Github &rarr;</button>
                 </a>
 

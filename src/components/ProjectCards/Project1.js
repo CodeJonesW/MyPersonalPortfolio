@@ -45,7 +45,7 @@ export default function Project1() {
                 </Carousel.Item>
             </Carousel>
             <CardBody>
-                <p>Adopt and find new homes for animal friends.</p>
+                <p>Pet Adoption Website! Ruby On Rails</p>
 
 
 

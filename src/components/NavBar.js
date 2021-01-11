@@ -69,11 +69,6 @@ export default class MyNav extends React.Component {
                             </NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink id="navItem" href="/art">
-                                Art
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
                             <NavLink id="navItem" href="/contact">
                                 Contact
                             </NavLink>

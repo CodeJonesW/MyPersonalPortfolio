@@ -35,7 +35,7 @@ export default function Project2() {
 
             </Carousel>
             <CardBody>
-                <p>Find, review, and save favorite craft beers.</p>
+                <p>Compare favorite beers! HTML CSS JS Ruby/Rails</p>
 
 
 

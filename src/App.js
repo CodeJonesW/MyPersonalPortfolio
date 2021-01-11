@@ -23,7 +23,7 @@ class App extends React.Component {
               <Route exact path="/" render={() => <About />} />
               <Route exact path='/contact' render={() => <Contact />} />
               <Route exact path='/projects' render={() => <Projects />} />
-              <Route exact path='/art' render={() => <Art />} />
+              {/* <Route exact path='/art' render={() => <Art />} /> */}
             </Switch>
           }
         </div>
