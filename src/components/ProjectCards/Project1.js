@@ -1,13 +1,6 @@
 import React from "react";
-import paws1 from '../../images/petlantaPaws/Screen Shot 2019-11-20 at 8.23.48 PM.png'
-import paws2 from '../../images/petlantaPaws/Screen Shot 2019-11-20 at 8.25.01 PM.png'
-import paws3 from '../../images/petlantaPaws/Screen Shot 2019-11-20 at 8.25.18 PM.png'
-import paws4 from '../../images/petlantaPaws/Screen Shot 2019-11-20 at 8.25.27 PM.png'
-import paws5 from '../../images/petlantaPaws/Screen Shot 2019-11-20 at 8.25.44 PM.png'
-
-
-
-
+import pocketWeather1 from '../../images/pocketWeatherImgs/Screen Shot 2021-01-15 at 3.21.59 AM.png'
+import pocketWeather2 from '../../images/pocketWeatherImgs/Screen Shot 2021-01-15 at 3.20.24 AM.png'
 
 import { Carousel, ButtonGroup, Button } from 'react-bootstrap'
 import {
@@ -25,34 +18,27 @@ export default function Project1() {
 
     return (
         <Card className="Card m-3">
-            <CardHeader>Petlanta Paws</CardHeader>
+            <CardHeader>Pocket Weather</CardHeader>
 
             <Carousel className="carouselItem" controls={true} interval={null} slide={true} wrap={true}>
                 <Carousel.Item >
-                    <CardImg src={paws1} className="PetlantaPawsImg" />
+                    <CardImg src={pocketWeather2} className="PetlantaPawsImg" />
                 </Carousel.Item>
                 <Carousel.Item >
-                    <CardImg src={paws2} className="PetlantaPawsImg" />
+                    <CardImg src={pocketWeather1} className="PetlantaPawsImg" />
                 </Carousel.Item>
-                <Carousel.Item >
-                    <CardImg src={paws3} className="PetlantaPawsImg" />
-                </Carousel.Item>
-                <Carousel.Item >
-                    <CardImg src={paws4} className="PetlantaPawsImg" />
-                </Carousel.Item>
-                <Carousel.Item >
-                    <CardImg src={paws5} className="PetlantaPawsImg" />
-                </Carousel.Item>
+           
+
             </Carousel>
             <CardBody>
-                <p>Pet Adoption Website! Ruby On Rails</p>
+                <p>HTML CSS JS Express Mobile Weather App</p>
 
 
 
-                <a href="https://petlanta-paws-app.herokuapp.com/login" target="_blank">
+                <a href="https://weatherman-6cee9.web.app/" target="_blank">
                     <button size='sm' className="myButton" >Live Website &rarr;</button>
                 </a>
-                <a href="https://github.com/CodeJonesW/Petlanta_Paws" target="_blank">
+                <a href="https://github.com/CodeJonesW/pocketWeather" target="_blank">
                     <button size='sm' className="myButton" >Github &rarr;</button>
                 </a>
 
