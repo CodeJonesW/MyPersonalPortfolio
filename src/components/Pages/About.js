@@ -1,27 +1,8 @@
 import React, { Component } from 'react';
 import selfie from '../../images/profile_picture.jpg'
-import jsLogo from '../../images/JavaScript_logo.png'
-import railsLogo from '../../images/rails-1-logo.png'
-import reactLogo from '../../images/react_logo_.png'
-import reduxLogo from '../../images/redux_logo.png'
-import nodeLogo from '../../images/NodeJS_logo.png'
 import scroll from '../../images/scroll_down_arrow.png'
-import postgresSqlLogo from '../../images/postgres_logo.png'
-import gitHubLogo from '../../images/github_logo_PNG.png'
-import cssLogo from '../../images/css_logo_>.png'
-import htmlLogo from '../../images/HTML_Logo.png'
-import dockerLogo from '../../images/docker-logo.png'
-import typescriptLogo from '../../images/typescript_logo.png'
-import rubyLogo from '../../images/ruby_Logo.png'
-import bootstrapLogo from '../../images/bootstrap_logo.png'
-import tddLogo from '../../images/tdd_logo.png'
-import jQueryLogo from '../../images/jquery.png'
-import expressLogo from '../../images/express_logo2.webp'
-import resume from '../../images/resume_logo_2.png'
 import { Card, Row, Col, Container } from "react-bootstrap"
-// import fetchNasaApi from '../../functions/functions'
 import mediaType from '../../functions/functions'
-import githubCalendar from 'github-calendar'
 
 const APIKEY = process.env.REACT_APP_API_KEY
 
@@ -46,7 +27,7 @@ class About extends React.Component {
 
 
     render() {
-        // let logos = [reactLogo, reduxLogo, jsLogo, nodeLogo, expressLogo, railsLogo, rubyLogo, postgresSqlLogo, gitHubLogo, cssLogo, htmlLogo, jQueryLogo, dockerLogo, typescriptLogo, bootstrapLogo, tddLogo];
+
         let media
         // console.log(this.state.astroDaily)
         return (
@@ -59,7 +40,7 @@ class About extends React.Component {
                     <Col >
                         <Card className="md-3" >
                             <Card.Body>
-                                As a passionate technologist, I love creating, problem solving, and improving application experiences. I have written code in a variety of languages and am always striving to learn more. Currently, I provide one on one tutoring to bootcamp students learning Mongo, Express, React, and Node (MERN). Consistently improving my communication techniques in regards to software is an important ongoing goal of mine. I am driven to work independently, but also believe team collaboration is a fundamental part of finding the best solutions.
+                                I love creating, problem solving, and improving application experiences. I have written code in a variety of languages and am always striving to learn more. Currently, I provide one on one tutoring to bootcamp students learning full stack development. Consistently improving my communication techniques in regards to software is an important ongoing goal of mine. I am driven to work independently, but also am excited by collaboration.
                             </Card.Body>
                         </Card>
                     </Col>
@@ -82,21 +63,11 @@ class About extends React.Component {
                     <Col  md={6}>
                         <Card className="marginTopCss">
                             <Card.Body>
-                                Outside of software, I enjoy learning about astronomy, philosophy, and music.
+                                Outside of software, I enjoy learning about music, philosophy, and astronomy.
                                 Playing guitar, running, and cooking at home are some of my favorite hobbies.
-                                I am always learning new languages, frameworks, and other technologies to advance
-                                my development process.
+                                I am always learning new languages, frameworks, and other technologies to advance my development process.
                             </Card.Body>
                         </Card>
-
-                        {/* <Card id="resume" style={{ 'margin': '25px', 'width': '70px' }}>
-
-                            <a href="https://learn.co/CodeJonesW/resume" target="_blank">
-                                <Card.Img id="resumeLogo" src={resume} />
-                                <Card.Text id="linkText">Resume Link:</Card.Text>
-                            </a>
-
-                        </Card> */}
 
 
                     </Col>
