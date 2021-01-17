@@ -42,6 +42,7 @@ class About extends React.Component {
                             <Card.Body>
                                 I love creating, problem solving, and improving application experiences. I have written code in a variety of languages and am always striving to learn more. Currently, I provide one on one tutoring to bootcamp students learning full stack development. Consistently improving my communication techniques in regards to software is an important ongoing goal of mine. I am driven to work independently, but also am excited by collaboration.
                             </Card.Body>
+                        
                         </Card>
                     </Col>
                 </Row>
@@ -65,7 +66,11 @@ class About extends React.Component {
                             <Card.Body>
                                 Outside of software, I enjoy learning about music, philosophy, and astronomy.
                                 Playing guitar, running, and cooking at home are some of my favorite hobbies.
-                                I am always learning new languages, frameworks, and other technologies to advance my development process.
+                                I am always learning new languages, frameworks, and other technologies to advance my development process.    
+                                <br/>
+                                <a  href="/projects">
+                                <button class="btn projectsBtn shadow">See my projects</button>
+                                </a>
                             </Card.Body>
                         </Card>
 

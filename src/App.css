@@ -64,6 +64,14 @@
   margin-top: 5%;
 }
 
+.projectsBtn {
+  margin-top: 2%;
+  border-radius: 10px;
+ 
+  border-color: rgb(215, 232, 250, 1);
+  background-color: white
+}
+
 .bugInvaderImg {
   height: auto;
   width: 100%;
