@@ -40,66 +40,55 @@ class About extends React.Component {
             .then(res => res.json())
             .then(data => this.setState({ astroDaily: data }))
 
-        githubCalendar(".calendar", "CodeJonesW", { responsive: true });
+        // githubCalendar(".calendar", "CodeJonesW", { responsive: true });
     }
 
 
 
     render() {
-        let logos = [reactLogo, reduxLogo, jsLogo, nodeLogo, expressLogo, railsLogo, rubyLogo, postgresSqlLogo, gitHubLogo, cssLogo, htmlLogo, jQueryLogo, dockerLogo, typescriptLogo, bootstrapLogo, tddLogo];
+        // let logos = [reactLogo, reduxLogo, jsLogo, nodeLogo, expressLogo, railsLogo, rubyLogo, postgresSqlLogo, gitHubLogo, cssLogo, htmlLogo, jQueryLogo, dockerLogo, typescriptLogo, bootstrapLogo, tddLogo];
         let media
-        console.log(this.state.astroDaily)
+        // console.log(this.state.astroDaily)
         return (
-            <div id="About">
-                <Row className="d-flex justify-content-center m-3">
-                    <Col md={5}>
-                        <img className="m-3" id="profilepic" src={selfie} alt="Profile Picture" />
+            <div className="container" id="About">
+                <Row className="marginTopCss">
+                    <Col>
+                        <img className="md-3" id="profilepic" src={selfie} alt="Profile Picture" />
                     </Col>
 
-                    <Col md={6} style={{ 'padding': '5vh', 'min-width': '40vh' }}>
-                        <Card className="m-3" >
+                    <Col >
+                        <Card className="md-3" >
                             <Card.Body>
                                 As a passionate technologist, I love creating, problem solving, and improving application experiences. I have written code in a variety of languages and am always striving to learn more. Currently, I provide one on one tutoring to bootcamp students learning Mongo, Express, React, and Node (MERN). Consistently improving my communication techniques in regards to software is an important ongoing goal of mine. I am driven to work independently, but also believe team collaboration is a fundamental part of finding the best solutions.
                             </Card.Body>
                         </Card>
                     </Col>
                 </Row>
-                <Row className="d-flex justify-content-center m-3">
-                    <Col md={12} style={{ 'padding': '3px', 'margin': '20px' }}>
+                <Row className="marginTopCss">
+                    <Col >
 
-                        <img src={scroll} id="arrow" class="animated bounce" />
+                        <img src={scroll} id="arrow" className="animated bounce" />
 
                     </Col>
                 </Row>
-                <Row className="d-flex justify-content-center m-3">
-                    <Col md={12} style={{ 'padding': '250px', 'margin': '20px' }}>
+                {/* <Row className="marginTopCss">
+                    <Col md={6}>
                         <div class="calendar">
 
                         </div>
                     </Col>
-                </Row>
-                <Row >
-                    <Col md={6} style={{ 'padding': '50px' }}>
-                        <Card style={{ 'margin': '25px', 'minWidth': '300px' }}>
+                </Row> */}
+                <Row className="marginTopCss">
+                    <Col  md={6}>
+                        <Card className="marginTopCss">
                             <Card.Body>
-                                Outside of software, I enjoy learning about history, astronomy, philosophy, and music.
+                                Outside of software, I enjoy learning about astronomy, philosophy, and music.
                                 Playing guitar, running, and cooking at home are some of my favorite hobbies.
                                 I am always learning new languages, frameworks, and other technologies to advance
                                 my development process.
                             </Card.Body>
                         </Card>
-                        <Card style={{ 'minWidth': '300px', 'margin': '25px' }} >
-                            <Row className="d-flex justify-content-center m-1">
-                                {logos.map(logo =>
-                                    <Col style={{ 'margin': '1px' }} md={2}>
 
-                                        <Card.Img className="technologies" src={logo} />
-
-
-                                    </Col>
-                                )}
-                            </Row>
-                        </Card>
                         {/* <Card id="resume" style={{ 'margin': '25px', 'width': '70px' }}>
 
                             <a href="https://learn.co/CodeJonesW/resume" target="_blank">
@@ -111,8 +100,8 @@ class About extends React.Component {
 
 
                     </Col>
-                    <Col md={6} style={{ 'padding': '50px' }}>
-                        <Card id="astroCard" style={{ 'margin': '10px', 'padding': '10px' }}>
+                    <Col md={6} >
+                        <Card className="marginTopCss" id="astroCard" style={{ 'padding': '10px' }}>
                             <Card.Title>
                                 Nasa's Astronomy Picture of the Day
                             </Card.Title>

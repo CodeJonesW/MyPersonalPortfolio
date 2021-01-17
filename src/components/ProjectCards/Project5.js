@@ -31,7 +31,7 @@ export default function Project4() {
 
             </Carousel>
             <CardBody>
-                <p> React, Node, Express, Sequelize Daily Developer StandUp app</p>
+                <p> React, Node, Express, Sequelize Developer StandUp app</p>
 
 
 

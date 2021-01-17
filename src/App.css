@@ -60,6 +60,10 @@
   width: 100%;
 }
 
+.marginTopCss {
+  margin-top: 5%;
+}
+
 .bugInvaderImg {
   height: auto;
   width: 100%;

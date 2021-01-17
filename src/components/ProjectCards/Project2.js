@@ -50,7 +50,7 @@ export default function Project2() {
                 </Carousel.Item>
             </Carousel>
             <CardBody>
-                <p>Compare food intake and exercises over time. React and Rails</p>
+                <p>Compare food and exercises over time. React and Rails</p>
 
 
 
