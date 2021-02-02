@@ -64,8 +64,7 @@ class About extends React.Component {
                     <Col  md={6}>
                         <Card className="marginTopCss">
                             <Card.Body>
-                                Outside of software, I enjoy learning about music, philosophy, and astronomy.
-                                Playing guitar, running, and cooking at home are some of my favorite hobbies.
+                                Outside of software, I enjoy playing guitar, cooking, and flameworking!
                                 I am always learning new languages, frameworks, and other technologies to advance my development process.    
                                 <br/>
                                 <a  href="/projects">
