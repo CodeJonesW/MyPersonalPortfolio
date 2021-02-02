@@ -65,7 +65,8 @@ class About extends React.Component {
                         <Card className="marginTopCss">
                             <Card.Body>
                                 Outside of software, I enjoy playing guitar, cooking, and flameworking!
-                                I am always learning new languages, frameworks, and other technologies to advance my development process.    
+                                I am always learning new languages, frameworks, and other technologies to advance my development process.
+                                I have really enjoyed making fullstack applications with React, Express, Node, and SQL. 
                                 <br/>
                                 <a  href="/projects">
                                 <button class="btn projectsBtn shadow">See my projects</button>
