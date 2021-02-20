@@ -24,7 +24,7 @@ const APIKEY = process.env.REACT_APP_API_KEY
           })
   
       // githubCalendar(".calendar", "CodeJonesW", { responsive: true });
-  })
+  }, [])
   
       return (
         
