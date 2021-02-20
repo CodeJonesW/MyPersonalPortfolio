@@ -18,27 +18,19 @@ class Projects extends React.Component {
                 </Row>
 
                 <Row className="d-flex justify-content-center m-3">
-                    <Col style={{ "minWidth": "250px" }} md={3}>
-                        <Project2 />
-                    </Col>
-
-                    <Col style={{ "minWidth": "250px" }} md={3}>
-                        <Project5 />
-                    </Col>
-
-
+                    {/* jam up */}
                     <Col style={{ "minWidth": "250px" }} md={3}>
                         <Project3 />
                     </Col>
-
+                    <Col style={{ "minWidth": "250px" }} md={3}>
+                        <Project5 />
+                    </Col>
+                    <Col style={{ "minWidth": "250px" }} md={3}>
+                        <Project2 />
+                    </Col>
                     <Col style={{ "minWidth": "250px" }} md={3}>
                         <Project1 />
                     </Col>
-
-
-
-
-
                 </Row>
 
 
