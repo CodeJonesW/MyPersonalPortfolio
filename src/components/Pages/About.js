@@ -4,32 +4,16 @@ import scroll from '../../images/scroll_down_arrow.png'
 import { Card, Row, Col, Container } from "react-bootstrap"
 import mediaType from '../../functions/functions'
 
-const APIKEY = process.env.REACT_APP_API_KEY
-
 
 class About extends React.Component {
 
-    constructor() {
-        super()
-        this.state = {
-            astroDaily: '',
-        }
-    }
-
-    componentDidMount() {
-        fetch(`https://api.nasa.gov/planetary/apod?api_key=${APIKEY}`)
-            .then(res => res.json())
-            .then(data => this.setState({ astroDaily: data }))
-
-        // githubCalendar(".calendar", "CodeJonesW", { responsive: true });
-    }
 
 
 
     render() {
 
         let media
-        // console.log(this.state.astroDaily)
+     
         return (
             <div className="container" id="About">
                 <Row className="marginTopCss">
@@ -61,6 +45,9 @@ class About extends React.Component {
                     </Col>
                 </Row> */}
                 <Row className="marginTopCss">
+                    <Col md={3} >
+                        
+                    </Col>
                     <Col  md={6}>
                         <Card className="marginTopCss">
                             <Card.Body>
@@ -76,16 +63,8 @@ class About extends React.Component {
 
 
                     </Col>
-                    <Col md={6} >
-                        <Card className="marginTopCss" id="astroCard" style={{ 'padding': '10px' }}>
-                            <Card.Title>
-                                Nasa's Astronomy Picture of the Day
-                            </Card.Title>
-                            {mediaType(this.state.astroDaily)}
-                            <Card.Body>
-                                {this.state.astroDaily.title}
-                            </Card.Body>
-                        </Card>
+                    <Col md={3} >
+                      
                     </Col>
                 </Row>
 

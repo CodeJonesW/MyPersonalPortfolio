@@ -15,16 +15,16 @@ const APIKEY = process.env.REACT_APP_API_KEY
     const [astroData, setAstroData] = useState();
 
 
-    useEffect(() => {
-      fetch(`https://api.nasa.gov/planetary/apod?api_key=${APIKEY}`)
-          .then(res => res.json())
-          .then(data => {
-            setAstroData(data)
-            // document.body.style.background = astroData.url;
-          })
+  //   useEffect(() => {
+  //     fetch(`https://api.nasa.gov/planetary/apod?api_key=${APIKEY}`)
+  //         .then(res => res.json())
+  //         .then(data => {
+  //           setAstroData(data)
+  //           // document.body.style.background = astroData.url;
+  //         })
   
-      // githubCalendar(".calendar", "CodeJonesW", { responsive: true });
-  }, [])
+  //     // githubCalendar(".calendar", "CodeJonesW", { responsive: true });
+  // }, [])
   
       return (
         
@@ -33,7 +33,7 @@ const APIKEY = process.env.REACT_APP_API_KEY
           <div id="content">
             {
               <Switch>
-                <Route exact path="/" render={() => <About />} />
+                <Route exact path="/" render={() => <About astroDaily={astroData}/>} />
                 <Route exact path='/contact' render={() => <Contact />} />
                 <Route exact path='/projects' render={() => <Projects />} />
                 {/* <Route exact path='/art' render={() => <Art />} /> */}
