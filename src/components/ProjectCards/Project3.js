@@ -1,9 +1,5 @@
 import React from "react";
-import brew1 from '../../images/brewster/Screen Shot 2019-11-20 at 10.49.26 PM.png'
-import brew2 from '../../images/brewster/Screen Shot 2019-11-20 at 10.49.36 PM.png'
-import brew3 from '../../images/brewster/Screen Shot 2019-11-20 at 10.49.59 PM.png'
-
-
+import jamUpPic from '../../images/JamUp.png'
 import { Carousel, ButtonGroup, Button } from 'react-bootstrap'
 import {
     Card,
@@ -20,29 +16,23 @@ export default function Project2() {
 
     return (
         <Card className="Card m-3">
-            <CardHeader>Brewster</CardHeader>
+            <CardHeader>JamUp</CardHeader>
 
             <Carousel className="carouselItem" controls={true} interval={null} slide={true} wrap={true}>
                 <Carousel.Item >
-                    <CardImg src={brew1} className="brewsterImg" />
-                </Carousel.Item>
-                <Carousel.Item >
-                    <CardImg src={brew2} className="brewsterImg" />
-                </Carousel.Item>
-                <Carousel.Item >
-                    <CardImg src={brew3} className="brewsterImg" />
+                    <CardImg src={jamUpPic} className="brewsterImg" />
                 </Carousel.Item>
 
             </Carousel>
             <CardBody>
-                <p>Compare favorite beers! HTML CSS JS Ruby/Rails</p>
+                <p>Meet up tool to allow musicians to find online jams via apps like Jamulus</p>
 
 
 
-                <a href="https://brewster-4d53f.firebaseapp.com/login" target="_blank">
+                <a href="https://jamupdev.firebaseapp.com/" target="_blank">
                     <button size='sm' className="myButton" >Live Website &rarr;</button>
                 </a>
-                <a href="https://github.com/CodeJonesW/Brewster" target="_blank">
+                <a href="https://github.com/CodeJonesW/JamUp" target="_blank">
                     <button size='sm' className="myButton" >Github &rarr;</button>
                 </a>
 

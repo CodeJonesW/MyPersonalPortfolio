@@ -26,10 +26,10 @@ class Projects extends React.Component {
                         <Project5 />
                     </Col>
 
-{/* 
+
                     <Col style={{ "minWidth": "250px" }} md={3}>
                         <Project3 />
-                    </Col> */}
+                    </Col>
 
                     <Col style={{ "minWidth": "250px" }} md={3}>
                         <Project1 />
