@@ -25,9 +25,7 @@ export default function Project2() {
 
             </Carousel>
             <CardBody>
-                <p>Meet up tool to allow musicians to find online jams via apps like Jamulus</p>
-
-
+                <p>React, Firebase Auth, Express, mySQL Musician Meetup App</p>
 
                 <a href="https://jamupdev.firebaseapp.com/" target="_blank">
                     <button size='sm' className="myButton" >Live Website &rarr;</button>

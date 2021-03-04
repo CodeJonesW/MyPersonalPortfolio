@@ -8,8 +8,6 @@ import mediaType from '../../functions/functions'
 class About extends React.Component {
 
 
-
-
     render() {
 
         let media

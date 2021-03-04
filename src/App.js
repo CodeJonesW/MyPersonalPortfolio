@@ -12,7 +12,7 @@ const APIKEY = process.env.REACT_APP_API_KEY
 
 
   function App (){
-    const [astroData, setAstroData] = useState();
+    // const [astroData, setAstroData] = useState();
 
 
   //   useEffect(() => {
@@ -33,7 +33,7 @@ const APIKEY = process.env.REACT_APP_API_KEY
           <div id="content">
             {
               <Switch>
-                <Route exact path="/" render={() => <About astroDaily={astroData}/>} />
+                <Route exact path="/" render={() => <About />} />
                 <Route exact path='/contact' render={() => <Contact />} />
                 <Route exact path='/projects' render={() => <Projects />} />
                 {/* <Route exact path='/art' render={() => <Art />} /> */}
