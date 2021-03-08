@@ -1,5 +1,7 @@
 import React from "react";
-import jamUpPic from '../../images/JamUp.png'
+import jamUpPic1 from '../../images/jamUp/Screen Shot 2021-03-07 at 11.16.34 PM.png'
+import jamUpPic2 from '../../images/jamUp/Screen Shot 2021-03-08 at 1.43.41 PM.png'
+
 import { Carousel, ButtonGroup, Button } from 'react-bootstrap'
 import {
     Card,
@@ -20,9 +22,12 @@ export default function Project2() {
 
             <Carousel className="carouselItem" controls={true} interval={null} slide={true} wrap={true}>
                 <Carousel.Item >
-                    <CardImg src={jamUpPic} className="brewsterImg" />
+                    <CardImg src={jamUpPic2} className="brewsterImg" />
                 </Carousel.Item>
-
+                <Carousel.Item >
+                    <CardImg src={jamUpPic1} className="brewsterImg" />  
+                </Carousel.Item>
+              
             </Carousel>
             <CardBody>
                 <p>React, Firebase Auth, Express, mySQL Musician Meetup App</p>
